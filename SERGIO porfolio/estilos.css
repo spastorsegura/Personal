@@ -1,0 +1,38 @@
+/* font-family: 'Big Shoulders Display', cursive; */
+*{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+body{
+    background-color: #2A1434;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background-image: url("./Assets/logo.svg");
+    background-repeat: no-repeat;
+}
+
+nav li{
+    list-style: none;
+    padding: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+nav li a:hover{
+    color: #FCEA10;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+p{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
