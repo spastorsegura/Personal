@@ -33,3 +33,7 @@ nav li a:hover{
 main div:nth-of-type(2){
     background-color: #fff;
 }
+
+/* .row{
+    --bs-gutter-x:0rem;
+} */
