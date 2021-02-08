@@ -1,0 +1,180 @@
+.logo {
+  width: 200px;
+  height: 50px;
+  background-image: url("./Assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 8rem;
+  font-weight: bold;
+  color: #ee741a;
+}
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #004358;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ee741a;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #004358;
+}
+
+h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #004358;
+}
+h6 {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ee741a;
+}
+
+h7 {
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #186250;
+  font-weight: 300;
+}
+
+.btn {
+  background-color: #ee741a;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  border-radius: 18px;
+  font-weight: bold;
+}
+form .btn {
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.caja {
+  background-color: #ee741a;
+}
+
+.caja1,
+.caja2 {
+  height: 300px;
+  border-radius: 20px;
+  background-color: #ee741a;
+}
+
+.caja1 {
+  background-image: url("./Assets/img1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.caja2 {
+  background-image: url("./Assets/img2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #186250;
+}
+
+.nav li:nth-of-type(4) {
+  background-color: #c9d8d5;
+  border-radius: 10px;
+}
+.nav li:nth-of-type(4):hover {
+  background-color: #ee741a;
+}
+
+footer {
+  background-color: #1e8b71;
+}
+
+footer p {
+  color: #fff;
+}
+
+.logo2 {
+  width: 200px;
+  height: 50px;
+  background-image: url("./Assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: sepia();
+}
+input,
+textarea {
+  border-radius: 5px;
+  border: 0;
+  outline: #ee741a;
+}
+input {
+  border-radius: 5px;
+}
+
+#naranja {
+  background-color: #ee741a;
+  height: 40px;
+  z-index: -1;
+  position: relative;
+}
+
+#verde {
+  background-color: #1e8b71;
+  height: 40px;
+  position: relative;
+}
+
+header{
+  background-color: #fff;
+  position: relative;
+}
+
+main{
+  margin: 100px;
+}
+
+
+.card{
+  border-radius: 10px;
+}
+.card img{
+  width: 40%;
+}
+
+.card button{
+border:0;
+}
+
+.card a{
+  text-decoration: none;
+  color: #ee741a;
+  font-weight: 500;
+}
