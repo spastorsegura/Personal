@@ -1,71 +1,90 @@
-
 /* font-family: 'Hepta Slab', serif;
 font-family: 'Montserrat', sans-serif; */
 
-:root{
---naranja:#EA5B13;
---morado:#6e02d7;
---blanco:#fff;
---marron:#562f20;
---celeste:#00B4DC;
+:root {
+  --naranja: #ea5b13;
+  --morado: #6e02d7;
+  --blanco: #fff;
+  --marron: #562f20;
+  --celeste: #00b4dc;
 }
 
-.logo{
-    width: 200px;
-    height: 72px;
-    background-image: url("./Assets/SVG/logo.svg");
+.logo {
+  width: 200px;
+  height: 72px;
+  background-image: url("./Assets/SVG/logo.svg");
 }
-header{
-    background-color: var(--morado);
-}
-
-.nav{
-    background-color: #fff;
+header {
+  background-color: var(--morado);
 }
 
-.nav a{
-    background-color: var(--naranja);
-    color: var(--blanco);
-    padding: 8px 15px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 35px;
-}
-.nav ul{
-    list-style: none;
+.nav {
+  background-color: #fff;
 }
 
-.registratebtn{
-    background-color: var(--naranja);
-    color: var(--blanco);
-    padding: 8px 15px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 35px;
+.nav a {
+  background-color: var(--naranja);
+  color: var(--blanco);
+  padding: 8px 15px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 35px;
+}
+.nav ul {
+  list-style: none;
 }
 
-main>div:nth-of-type(1) h1{
-    color: var(--blanco);
-    font-family: 'Hepta Slab', serif;
-    font-size: 2rem;
-    line-height: 33.6px;
+.registratebtn {
+  background-color: var(--naranja);
+  color: var(--blanco);
+  padding: 8px 15px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 35px;
 }
 
-main>div:nth-of-type(3){
-    background-color: var(--naranja);
+main > div:nth-of-type(1) {
+  background-color: var(--celeste);
+  background-image: url("./Assets/SVG/recurso2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
 }
-main>div:nth-of-type(3) h3{
-    color: var(--blanco);
+main > div:nth-of-type(1) h1 {
+  color: var(--blanco);
+  font-family: "Hepta Slab", serif;
+  font-size: 2rem;
+  line-height: 33.6px;
 }
-main>div:nth-of-type(3) p{
-    color: var(--blanco);
-    font-weight: 300;
+
+main > div:nth-of-type(3) {
+  background-color: var(--naranja);
 }
-main>div:nth-of-type(3) p:nth-of-type(2), main>div:nth-of-type(3) p:nth-of-type(3){
-    font-weight: 500;
-    color: var(--blanco);
+main > div:nth-of-type(3) h3 {
+  color: var(--blanco);
 }
-main>div:nth-of-type(3) p:nth-of-type(2) a, main>div:nth-of-type(3) p:nth-of-type(3) a{
-    text-decoration: none;
-    color: var(--blanco);
+main > div:nth-of-type(3) p {
+  color: var(--blanco);
+  font-weight: 300;
+}
+main > div:nth-of-type(3) p:nth-of-type(2),
+main > div:nth-of-type(3) p:nth-of-type(3) {
+  font-weight: 500;
+  color: var(--blanco);
+}
+main > div:nth-of-type(3) p:nth-of-type(2) a,
+main > div:nth-of-type(3) p:nth-of-type(3) a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+main > div:nth-of-type(4) h1 {
+  color: var(--morado);
+  font-family: "Hepta Slab", serif;
+}
+
+main > div:nth-of-type(4) h2 {
+  color: var(--morado);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
