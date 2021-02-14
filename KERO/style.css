@@ -7,12 +7,13 @@ font-family: 'Montserrat', sans-serif; */
   --blanco: #fff;
   --marron: #562f20;
   --celeste: #00b4dc;
+  --gris:#F4F4F4;
 }
 
 .logo {
   width: 200px;
   height: 72px;
-  background-image: url("./Assets/SVG/logo.svg");
+  background-image: url("./Assets/logo.svg");
 }
 header {
   background-color: var(--morado);
@@ -46,7 +47,7 @@ header {
 /* 1 */
 main > div:nth-of-type(1) {
   background-color: var(--celeste);
-  background-image: url("./Assets/SVG/recurso2.svg");
+  background-image: url("./Assets/Recurso2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
@@ -145,7 +146,7 @@ main > div:nth-of-type(7) div:nth-of-type(1) p{
 
 /* 7.2 */
 main > div:nth-of-type(7) div:nth-of-type(2){
-  background-color: var(--white);
+  background-color: var(--gris);
 }
 main > div:nth-of-type(7) div:nth-of-type(2) h1{
   color: var(--morado);
@@ -204,4 +205,72 @@ main > div:nth-of-type(9) div:nth-of-type(2) textarea::placeholder {
 
 main > div:nth-of-type(9) div:nth-of-type(2) textarea {
   border-radius: 15px;
+}
+
+/* 10 */
+main > div:nth-of-type(10){
+  background-color:var(--blanco);
+}
+main > div:nth-of-type(10) div:nth-of-type(1) h1{
+  color: var(--morado);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(10) div:nth-of-type(1) p{
+  color: var(--morado);
+  font-family: "Montserrat", sans-serif;
+}
+/* 11 */
+
+main > div:nth-of-type(11){
+  background-color: var(--blanco);
+}
+main > div:nth-of-type(11) div:nth-of-type(1),
+main > div:nth-of-type(11) div:nth-of-type(2),
+main > div:nth-of-type(11) div:nth-of-type(3)
+{
+  background-color: var(--morado);
+}
+
+main > div:nth-of-type(11) h1{
+  color: var(--blanco);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(11) p{
+  color: var(--blanco);
+  font-family: "Montserrat", sans-serif;
+}
+/* 12 */
+main > div:nth-of-type(12){
+  background-image: url("./Assets/Recurso3.svg");
+  height: 340px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 13 */
+main > div:nth-of-type(13) h1{
+  color: var(--morado);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(13) p{
+  color: var(--morado);
+  font-family: "Montserrat", sans-serif;
+}
+
+main > div:nth-of-type(13){
+  background-image: url("./Assets/Recurso4.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  height: 600px;
+}
+/* 14 */
+main > div:nth-of-type(14){
+  background-color: var(--gris);
+}
+main > div:nth-of-type(14)>div:nth-of-type(1){
+  background-image: url("./Assets/Recurso6.svg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  height: 400px;
 }
