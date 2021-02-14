@@ -243,7 +243,7 @@ main > div:nth-of-type(12) {
   background-image: url("./Assets/Recurso3.svg");
   height: 340px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 /* 13 */
@@ -259,7 +259,7 @@ main > div:nth-of-type(13) p {
 main > div:nth-of-type(13) {
   background-image: url("./Assets/Recurso4.svg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 70%;
   background-position: center;
   height: 600px;
 }
@@ -271,6 +271,7 @@ main > div:nth-of-type(14) > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso6.svg");
   background-repeat: no-repeat;
   /* background-size: contain; */
+  background-position: center;
   height: 400px;
 }
 
@@ -352,9 +353,14 @@ footer {
   background-color: var(--morado);
 }
 
-
 footer h1{
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
+  font-size: 0.8rem;
+}
+
+footer p{
+  color: var(--blanco);
+  font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
 }
