@@ -43,6 +43,7 @@ header {
   border-radius: 35px;
 }
 
+/* 1 */
 main > div:nth-of-type(1) {
   background-color: var(--celeste);
   background-image: url("./Assets/SVG/recurso2.svg");
@@ -57,6 +58,7 @@ main > div:nth-of-type(1) h1 {
   line-height: 33.6px;
 }
 
+/* 3 */
 main > div:nth-of-type(3) {
   background-color: var(--naranja);
 }
@@ -81,6 +83,7 @@ main > div:nth-of-type(3) p:nth-of-type(3) a {
 main > div:nth-of-type(3) div:nth-of-type(2) input {
   border-radius: 25px;
 }
+
 main > div:nth-of-type(3) div:nth-of-type(2) input::placeholder,
 main > div:nth-of-type(3) div:nth-of-type(2) textarea::placeholder {
   color: var(--naranja);
@@ -92,6 +95,7 @@ main > div:nth-of-type(3) div:nth-of-type(2) textarea {
   border-radius: 15px;
 }
 
+/* 4 */
 main > div:nth-of-type(4) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
@@ -100,8 +104,10 @@ main > div:nth-of-type(4) h1 {
 main > div:nth-of-type(4) h2 {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
+
+/* 5 */
 main > div:nth-of-type(5) div:nth-of-type(2) {
   background-color: var(--morado);
   color: var(--blanco);
@@ -114,4 +120,88 @@ main > div:nth-of-type(5) div:nth-of-type(2) {
   background-color: var(--naranja);
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
+}
+
+/* 6 */
+
+main > div:nth-of-type(6) h1{
+  color: var(--morado);
+  font-family: "Hepta Slab", serif;
+}
+
+/* 7 */
+/* 7.1 */
+main > div:nth-of-type(7) div:nth-of-type(1){
+  background-color: var(--morado);
+}
+main > div:nth-of-type(7) div:nth-of-type(1) h1{
+  color: var(--blanco);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(7) div:nth-of-type(1) p{
+  color: var(--blanco);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 7.2 */
+main > div:nth-of-type(7) div:nth-of-type(2){
+  background-color: var(--white);
+}
+main > div:nth-of-type(7) div:nth-of-type(2) h1{
+  color: var(--morado);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(7) div:nth-of-type(2) p{
+  color: var(--morado);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 7.3 */
+main > div:nth-of-type(7) div:nth-of-type(3){
+  background-color: var(--naranja);
+}
+main > div:nth-of-type(7) div:nth-of-type(3) h1{
+  color: var(--blanco);
+  font-family: "Hepta Slab", serif;
+}
+main > div:nth-of-type(7) div:nth-of-type(3) p{
+  color: var(--blanco);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 9 */
+main > div:nth-of-type(9) {
+  background-color: var(--naranja);
+}
+main > div:nth-of-type(9) h3 {
+  color: var(--blanco);
+}
+main > div:nth-of-type(9) p {
+  color: var(--blanco);
+  font-weight: 300;
+}
+main > div:nth-of-type(9) p:nth-of-type(2),
+main > div:nth-of-type(9) p:nth-of-type(3) {
+  font-weight: 500;
+  color: var(--blanco);
+}
+main > div:nth-of-type(9) p:nth-of-type(2) a,
+main > div:nth-of-type(9) p:nth-of-type(3) a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+main > div:nth-of-type(9) div:nth-of-type(2) input {
+  border-radius: 25px;
+}
+
+main > div:nth-of-type(9) div:nth-of-type(2) input::placeholder,
+main > div:nth-of-type(9) div:nth-of-type(2) textarea::placeholder {
+  color: var(--naranja);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+main > div:nth-of-type(9) div:nth-of-type(2) textarea {
+  border-radius: 15px;
 }
