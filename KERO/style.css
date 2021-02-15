@@ -250,7 +250,6 @@ main > div:nth-of-type(10)>div:nth-of-type(2) div:nth-of-type(2),
 main > div:nth-of-type(10)>div:nth-of-type(2) div:nth-of-type(3) {
   background-color: var(--morado);
   border: 3px solid var(--blanco);
-  height: 350px;
 }
 
 main > div:nth-of-type(10)>div:nth-of-type(2) h1 {
