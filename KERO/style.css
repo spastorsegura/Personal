@@ -379,7 +379,7 @@ main > div:nth-of-type(15) > div:nth-of-type(1) h1 {
   font-size: 2rem;
 }
 /* infografía */
-main > div:nth-of-type(15) > div:nth-of-type(2) > div:nth-of-type(1) {
+main > div:nth-of-type(15) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
   height: 600px;
   background-image: url("./Assets/info1.svg");
   background-repeat: no-repeat;
