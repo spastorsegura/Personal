@@ -10,12 +10,13 @@ font-family: 'Montserrat', sans-serif; */
   --gris: #f4f4f4;
 }
 
-*{
+* {
   margin: 0 !important;
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -132,8 +133,8 @@ main > div:nth-of-type(4) h2 {
 
 /* 5 */
 main > div:nth-of-type(5),
-main > div:nth-of-type(5)>div:nth-of-type(1),
-main > div:nth-of-type(5)>div:nth-of-type(2){
+main > div:nth-of-type(5) > div:nth-of-type(1),
+main > div:nth-of-type(5) > div:nth-of-type(2) {
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -148,7 +149,7 @@ main > div:nth-of-type(5) div:nth-of-type(2) h2 {
   font-size: 1.2rem;
 }
 
-main > div:nth-of-type(5) div:nth-of-type(2) div:nth-of-type(3){
+main > div:nth-of-type(5) div:nth-of-type(2) div:nth-of-type(3) {
   background-color: var(--morado);
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
@@ -170,7 +171,7 @@ main > div:nth-of-type(6) h1 {
   font-size: 1.5rem;
 }
 
-.video{
+.video {
   height: 500px;
 }
 
@@ -255,34 +256,33 @@ main > div:nth-of-type(9) div:nth-of-type(2) textarea {
 /* 10 */
 main > div:nth-of-type(10) {
   background-color: var(--blanco);
-  background-image: url("./Assets/trama2.svg"),url("./Assets/trama3.svg");
-  background-repeat: no-repeat,no-repeat;
-  background-size: 50%,100%;
-  background-position: 100% 0,100% -50%;
-
+  background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 100%;
+  background-position: 100% 0, 100% -50%;
 }
-main > div:nth-of-type(10)>div:nth-of-type(1) h1 {
+main > div:nth-of-type(10) > div:nth-of-type(1) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
 }
-main > div:nth-of-type(10)>div:nth-of-type(1) p {
+main > div:nth-of-type(10) > div:nth-of-type(1) p {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
 }
 
-main > div:nth-of-type(10)>div:nth-of-type(2) div:nth-of-type(1),
-main > div:nth-of-type(10)>div:nth-of-type(2) div:nth-of-type(2),
-main > div:nth-of-type(10)>div:nth-of-type(2) div:nth-of-type(3) {
+main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(1),
+main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(2),
+main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(3) {
   background-color: var(--morado);
   border: 3px solid var(--blanco);
 }
 
-main > div:nth-of-type(10)>div:nth-of-type(2) h1 {
+main > div:nth-of-type(10) > div:nth-of-type(2) h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
 }
 
-main > div:nth-of-type(10)>div:nth-of-type(2) p {
+main > div:nth-of-type(10) > div:nth-of-type(2) p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
 }
@@ -316,7 +316,7 @@ main > div:nth-of-type(12) {
   background-image: url("./Assets/Recurso3.svg");
   height: 340px;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
   background-attachment: fixed;
 }
@@ -335,7 +335,7 @@ main > div:nth-of-type(13) {
   background-image: url("./Assets/Recurso4.svg");
   background-repeat: no-repeat;
   background-size: 70%;
-  background-position: center;
+  background-position: 50% 90%;
   height: 600px;
 }
 /* 14 */
@@ -345,7 +345,7 @@ main > div:nth-of-type(14) {
 main > div:nth-of-type(14) > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso6.svg");
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: 80%;
   background-position: center;
   height: 400px;
 }
@@ -428,26 +428,26 @@ footer {
   background-color: var(--morado);
 }
 
-footer h1{
+footer h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
   font-size: 0.8rem;
 }
 
-footer p{
+footer p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: var(--blanco);
 }
 
 /* Medias queries */
 @media (max-width: 767.98px) {
-  #moneda{
+  #moneda {
     visibility: hidden;
   }
   .nav a {
@@ -471,21 +471,40 @@ footer a{
     z-index: 9999;
   }
 
-  main > div:nth-of-type(6){
+  main > div:nth-of-type(6) {
     padding: 0 !important;
   }
- }
+
+  main > div:nth-of-type(14) > div:nth-of-type(1) {
+    height: 200px;
+  }
+  main > div:nth-of-type(14) > div:nth-of-type(2) {
+    height: 300px;
+    padding: 15px !important;
+  }
+  main > div:nth-of-type(16) {
+    padding: 10px !important;
+  }
+  main > div:nth-of-type(16) > div:nth-of-type(2) {
+    height: 400px !important;
+  }
+  main > div:nth-of-type(13) {
+    background-size: 90%;
+    background-position: 50% 90%;
+    height: 500px;
+  }
+  main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(1),
+  main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(2),
+  main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(3) {
+    height: 250px;
+  }
+}
 @media (min-width: 767.98px) {
   main > div:nth-of-type(10) {
-  background-color: var(--blanco);
-  background-image: url("./Assets/trama2.svg"),url("./Assets/trama3.svg");
-  background-repeat: no-repeat,no-repeat;
-  background-size: 50%,100%;
-  background-position: 100% 0,100% 100%;
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, 100% 100%;
   }
- }
-
-
-
- 
- 
+}
