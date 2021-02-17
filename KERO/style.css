@@ -51,7 +51,9 @@ main > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso2.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:bottom;
   height: 260px;
+  background-attachment: fixed;
 }
 main > div:nth-of-type(1) h1 {
   color: var(--blanco);
