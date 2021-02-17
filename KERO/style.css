@@ -10,10 +10,22 @@ font-family: 'Montserrat', sans-serif; */
   --gris: #f4f4f4;
 }
 
+*{
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   width: 200px;
   height: 72px;
   background-image: url("./Assets/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 header {
   background-color: var(--morado);
@@ -119,6 +131,12 @@ main > div:nth-of-type(4) h2 {
 }
 
 /* 5 */
+main > div:nth-of-type(5),
+main > div:nth-of-type(5)>div:nth-of-type(1),
+main > div:nth-of-type(5)>div:nth-of-type(2){
+  padding: 0 !important;
+  margin: 0 !important;
+}
 main > div:nth-of-type(5) div:nth-of-type(1) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
@@ -432,6 +450,30 @@ footer a{
   #moneda{
     visibility: hidden;
   }
+  .nav a {
+    background-color: var(--naranja);
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  header > div:nth-of-type(2) {
+    padding: 10px !important;
+  }
+  main > div:nth-of-type(1) {
+    background-color: var(--celeste);
+    background-image: url("./Assets/Recurso2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    z-index: 9999;
+  }
+
+  main > div:nth-of-type(6){
+    padding: 0 !important;
+  }
  }
 @media (min-width: 767.98px) {
   main > div:nth-of-type(10) {
@@ -439,7 +481,7 @@ footer a{
   background-image: url("./Assets/trama2.svg"),url("./Assets/trama3.svg");
   background-repeat: no-repeat,no-repeat;
   background-size: 50%,100%;
-  background-position: 100% 0,100% -100%;
+  background-position: 100% 0,100% 100%;
   }
  }
 
