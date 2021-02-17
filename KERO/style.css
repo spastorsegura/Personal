@@ -43,6 +43,7 @@ header {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   border-radius: 35px;
+  z-index: 9999;
 }
 
 /* 1 */
@@ -52,7 +53,8 @@ main > div:nth-of-type(1) {
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
-  /* background-attachment: fixed; */
+  background-position: center;
+  z-index: 9999;
 }
 main > div:nth-of-type(1) h1 {
   color: var(--blanco);
@@ -122,13 +124,6 @@ main > div:nth-of-type(5) div:nth-of-type(2) h2 {
   font-size: 1.2rem;
 }
 
-/* 5 */
-/* main > div:nth-of-type(5) {
-  background-image: url("./Assets/monedas.svg");
-  background-repeat: no-repeat;
-  background-size: 52%;
-  background-position: 0 100%;
-} */
 main > div:nth-of-type(5) div:nth-of-type(2) div:nth-of-type(3){
   background-color: var(--morado);
   color: var(--blanco);

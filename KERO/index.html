@@ -28,9 +28,9 @@
     <!-- A.header -->
     <header class="container-fluid d-flex justify-content-between p-0">
       <div class="logo"></div>
-      <div class="col-md"></div>
-      <div class="nav align-items-center">
-        <ul>
+      
+      <div class="nav px-5 align-items-center">
+        <ul class="p-0">
           <li><a href="#">Iniciar sesión</a></li>
         </ul>
       </div>
@@ -39,9 +39,9 @@
     <!-- B.main -->
     <main class="container-fluid">
       <!-- 1 -->
-      <div class="row align-items-center">
+      <div class="row align-items-center position-relative">
         <div class="col-md-9">
-          <h1>
+          <h1 class="p-4">
             Tú puedes ser parte del mejor negocio con tecnología 2021 que
             revoluciona el mercado peruano. ¿Estás listo?
           </h1>
@@ -51,13 +51,14 @@
       <!-- 2 -->
       <div class="row">
         <div class="col-md text-center my-4">
-          <a href="#" class="registratebtn text-uppercase">Regístrate</a>
+          <a class="registratebtn text-uppercase position-relative"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Regístrate</a>
         </div>
       </div>
 
       <!-- 3 -->
-      <div class="row p-4 align-items-center p-5">
-        <div class="col-md">
+      <div class="row p-4 align-items-center p-5 collapse" id="collapseExample">
+
+        <div class="col-md ">
           <h3>¿Quieres registrarte?</h3>
           <p>
             Déjanos tus datos y alguien del equipo de kero se comunicará
@@ -70,6 +71,10 @@
         </div>
 
         <div class="col-md">
+          <div class="row text-end py-2 fs-4">
+            <a href="#"><i class="bi bi-x" style="color: #fff;"></i></a>
+          </div>
+          
           <form>
             <input
               type="email"
@@ -187,14 +192,13 @@
       <!-- 8 -->
       <div class="row">
         <div class="col-md text-center my-4">
-          <a href="#" class="registratebtn text-uppercase"
-            >Inscríbete en un paso</a
+          <a class="registratebtn text-uppercase position-relative"  data-bs-toggle="collapse" href="#collapseRegister" role="button" aria-expanded="false" aria-controls="collapseRegister">Inscríbete en un paso</a
           >
         </div>
       </div>
 
       <!-- 9 -->
-      <div class="row p-4 align-items-center">
+      <div class="row p-4 align-items-center collapse" id="collapseRegister">
         <div class="col-md">
           <h3>¿Quieres registrarte?</h3>
           <p>
@@ -206,6 +210,9 @@
         </div>
 
         <div class="col-md">
+          <div class="row text-end py-2 fs-4">
+            <a href="#"><i class="bi bi-x" style="color: #fff;"></i></a>
+          </div>
           <form>
             <input
               type="email"
@@ -383,27 +390,31 @@
     </main>
 
     <!-- C.footer -->
-    <footer class="container-fluid d-flex p-5">
-      <div class="col-md"></div>
-      <div class="col-md text-center">
-        <h1 class="text-uppercase">Contáctanos</h1>
-        <p>
-          <a href="mailto:info@kero-go.com">info@kero-go.com</a>
-          <a href="tel:+51993485341">+51993485341</a>
-        </p>
+    <footer class="container-fluid">
+      <div class="row d-flex p-4">
+        <div class="col-md"></div>
+        <div class="col-md text-center">
+          <h1 class="text-uppercase">Contáctanos</h1>
+          <p>
+            <a href="mailto:info@kero-go.com">info@kero-go.com</a><br>
+            <a href="tel:+51993485341"><i class="bi bi-whatsapp"></i> +51993485341</a>
+          </p>
+        </div>
+        <div class="col-md text-center">
+          <h1 class="text-uppercase">Tienda online</h1>
+          <p><a href="www.kero-mart.com">www.kero-mart.com</a></p>
+        </div>
+        <div class="col-md text-center">
+          <h1 class="text-uppercase">Síguenos</h1>
+          <a href="#"><i class="bi bi-facebook m-1"></i></a>
+          <a href="#"><i class="bi bi-instagram m-1"></i></a>
+          <a href="#"><i class="bi bi-youtube m-1"></i></a>
+        </div>
+        <div class="col-md">
+        </div>
       </div>
-      <div class="col-md text-center">
-        <h1 class="text-uppercase">Tienda online</h1>
-        <p><a href="www.kero-mart.com">www.kero-mart.com</a></p>
-      </div>
-      <div class="col-md text-center">
-        <h1 class="text-uppercase">Síguenos</h1>
-        <a href="#"><i class="bi bi-facebook m-1"></i></a>
-        <a href="#"><i class="bi bi-instagram m-1"></i></a>
-        <a href="#"><i class="bi bi-youtube m-1"></i></a>
-      </div>
-      <div class="col-md">
-      </div>
+      <hr style="border: 1px solid #fff;">
+      <div class="row"></div>
     </footer>
     <!-- script -->
     <script
