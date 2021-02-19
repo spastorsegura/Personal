@@ -17,6 +17,8 @@ font-family: 'Montserrat', sans-serif; */
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 header {
   background-color: var(--morado);
   border-bottom: 2px solid var(--naranja);
@@ -72,7 +74,7 @@ main > div:nth-of-type(2) {
   background-image: url("./Assets/trama4.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center 0%;
+  background-position: center 100%;
 }
 
 /* 3 */
@@ -177,10 +179,6 @@ main > div:nth-of-type(6) h1 {
   font-size: 1.5rem;
 }
 
-.video {
-  height: 500px;
-}
-
 /* 7 */
 /* 7.1 */
 main > div:nth-of-type(7) div:nth-of-type(1) {
@@ -273,7 +271,7 @@ main > div:nth-of-type(10) {
   background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 50%, 100%;
-  background-position: 100% 0, 100% -50%;
+  background-position: 100% 0, 50% 150%;
 }
 main > div:nth-of-type(10) > div:nth-of-type(1) h1 {
   color: var(--morado);
@@ -345,16 +343,17 @@ main > div:nth-of-type(13) p {
   font-family: "Montserrat", sans-serif;
 }
 
-main > div:nth-of-type(13) {
+main > div:nth-of-type(13){
   background-image: url("./Assets/Recurso4.svg");
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: 50% 90%;
-  height: 600px;
+  background-size: 90% 90%;
+  background-position: center bottom;
+  height: 500px;
 }
 /* 14 */
 main > div:nth-of-type(14) {
   background-color: var(--gris);
+  height: 400px;
 }
 main > div:nth-of-type(14) > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso6.svg");
@@ -376,10 +375,10 @@ main > div:nth-of-type(14) > div:nth-of-type(2) h2 {
 }
 
 main > div:nth-of-type(14) > div:nth-of-type(2) {
-  height: 400px;
+  height: 100%;
   background-image: url("./Assets/trama1.svg");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 50% 100%;
 }
 
 /* 15 */
@@ -427,7 +426,7 @@ main > div:nth-of-type(15) > div:nth-of-type(2) > div:nth-of-type(4) {
   background-color: #c5404e;
 } */
 
-/* 16 */
+/* 17 */
 
 main > div:nth-of-type(17) > div:nth-of-type(1) h1 {
   color: var(--naranja);
@@ -454,23 +453,33 @@ footer p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
 }
+footer small {
+  color: var(--blanco);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
 
 footer a {
   text-decoration: none;
   color: var(--blanco);
 }
 
-/* dEtalles */
+/* detalles */
 
 hr {
-  border: 1px solid #fff;
+  border-top: 1px solid #fff;
 }
+
+
 
 
 /* Medias queries */
 @media (max-width: 767.98px) {
-  #moneda {
-    visibility: hidden;
+  iframe{
+    height: 200px;
+  }
+  .moneda{
+    width: 100% !important;
   }
   .nav a {
     background-color: var(--naranja);
@@ -497,37 +506,70 @@ hr {
     padding: 0 !important;
   }
 
-  main > div:nth-of-type(14) > div:nth-of-type(1) {
-    /* height: 200px; */
-  }
   main > div:nth-of-type(14) > div:nth-of-type(2) {
     height: 300px;
     padding: 15px !important;
   }
-  /* main > div:nth-of-type(17) {
-    padding: 10px !important;
-  } */
+ 
   main > div:nth-of-type(17) > div:nth-of-type(2) {
-    height: 400px !important;
+    height: auto;
   }
-  main > div:nth-of-type(13) {
-    background-size: 90%;
-    background-position: 50% 90%;
-    height: 500px;
-  }
+
   main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(1),
   main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(2),
   main > div:nth-of-type(10) > div:nth-of-type(2) div:nth-of-type(3) {
     height: 250px;
   }
-}
-@media (min-width: 767.98px) {
+
   main > div:nth-of-type(10) {
     background-color: var(--blanco);
     background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 50%, 100%;
-    background-position: 100% 0, 100% 100%;
+    background-position: 100% 0, center 100%;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  iframe{
+    height: 500px;
+  }
+  main > div:nth-of-type(10) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center bottom;
+  }
+
+  .moneda img{
+    width: 110%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  main > div:nth-of-type(10) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center -500%;
+  }
+}
+@media (min-width: 1400px) {
+  main > div:nth-of-type(10) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center -50%;
+  }
+  .moneda img{
+    width: 80%;
   }
 }
 
