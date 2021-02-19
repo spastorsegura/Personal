@@ -37,9 +37,11 @@ header {
   font-family: "Montserrat", sans-serif;
   border-radius: 35px;
 }
-.nav ul {
-  list-style: none;
+.nav a:hover {
+  background-color: var(--celeste);
+  color: var(--blanco);
 }
+
 
 .registratebtn {
   background-color: var(--naranja);
@@ -49,6 +51,10 @@ header {
   font-family: "Montserrat", sans-serif;
   border-radius: 35px;
   z-index: 9999;
+}
+.registratebtn:hover {
+  background-color: var(--celeste);
+  color: var(--blanco);
 }
 
 /* 1 */
@@ -468,6 +474,10 @@ footer a {
 
 hr {
   border-top: 1px solid #fff;
+}
+
+::selection{
+  background-color: var(--celeste);
 }
 
 
