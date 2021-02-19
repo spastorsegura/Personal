@@ -69,6 +69,10 @@ main > div:nth-of-type(1) h1 {
 main > div:nth-of-type(2) {
   background-color: var(--blanco);
   z-index: 9999;
+  background-image: url("./Assets/trama4.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 0%;
 }
 
 /* 3 */
@@ -128,6 +132,14 @@ main > div:nth-of-type(5) > div:nth-of-type(2) {
   padding: 0 !important;
   margin: 0 !important;
 } */
+
+main > div:nth-of-type(5){
+  background-image: url("./Assets/trama5.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 0%;
+  /* background-color: #ccc; */
+}
 main > div:nth-of-type(5) div:nth-of-type(1) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
@@ -139,7 +151,11 @@ main > div:nth-of-type(5) div:nth-of-type(2) h2 {
   font-size: 1.2rem;
 }
 
-main > div:nth-of-type(5) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(2){
+main
+  > div:nth-of-type(5)
+  div:nth-of-type(2)
+  div:nth-of-type(1)
+  div:nth-of-type(2) {
   background-color: var(--morado);
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
@@ -183,6 +199,10 @@ main > div:nth-of-type(7) div:nth-of-type(1) p {
 /* 7.2 */
 main > div:nth-of-type(7) div:nth-of-type(2) {
   background-color: var(--gris);
+  background-image: url("./Assets/circuloNaranja.svg");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 80% -10%;
 }
 main > div:nth-of-type(7) div:nth-of-type(2) h1 {
   color: var(--morado);
@@ -196,6 +216,10 @@ main > div:nth-of-type(7) div:nth-of-type(2) p {
 /* 7.3 */
 main > div:nth-of-type(7) div:nth-of-type(3) {
   background-color: var(--naranja);
+  background-image: url("./Assets/circuloMorado.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 115% 25%;
 }
 main > div:nth-of-type(7) div:nth-of-type(3) h1 {
   color: var(--blanco);
@@ -436,9 +460,12 @@ footer a {
   color: var(--blanco);
 }
 
-hr{
+/* dEtalles */
+
+hr {
   border: 1px solid #fff;
 }
+
 
 /* Medias queries */
 @media (max-width: 767.98px) {
@@ -503,3 +530,5 @@ hr{
     background-position: 100% 0, 100% 100%;
   }
 }
+
+
