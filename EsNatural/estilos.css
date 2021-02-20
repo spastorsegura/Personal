@@ -1,3 +1,13 @@
+:root{
+--verdelimon: #BDD141;
+--verde:#1e8b71;
+--verdeazul: #004358;
+--naranja: #ee741a;
+--amarillo:#FFE119;
+--blanco:#fff;
+--gris: #c9d8d5;
+}
+
 .logo {
   width: 200px;
   height: 50px;
@@ -11,26 +21,26 @@ h1 {
   font-family: "Amatic SC", cursive;
   font-size: 8rem;
   font-weight: bold;
-  color: #ee741a;
+  color: var(--naranja);
 }
 h2 {
   font-family: "Amatic SC", cursive;
   font-size: 4rem;
   font-weight: bold;
-  color: #004358;
+  color: var(--verdeazul);
 }
 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  color: #ee741a;
+  color: var(--naranja);
 }
 h4 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #004358;
+  color: var(--verdeazul);
 }
 
 h5 {
@@ -38,14 +48,14 @@ h5 {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #004358;
+  color: var(--verdeazul);
 }
 h6 {
   font-family: "Amatic SC", cursive;
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #ee741a;
+  color: var(--naranja);
 }
 
 h7 {
@@ -53,17 +63,17 @@ h7 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: var(--blanco);
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  color: #186250;
+  color: var(--verde);
   font-weight: 300;
 }
 
 .btn {
-  background-color: #ee741a;
+  background-color: var(--naranja);
   font-family: "Amatic SC", cursive;
   font-size: 2rem;
   border-radius: 18px;
@@ -75,14 +85,14 @@ form .btn {
 }
 
 .caja {
-  background-color: #ee741a;
+  background-color: var(--naranja);
 }
 
 .caja1,
 .caja2 {
   height: 300px;
   border-radius: 20px;
-  background-color: #ee741a;
+  background-color: var(--naranja);
 }
 
 .caja1 {
@@ -101,23 +111,23 @@ form .btn {
 .nav li a {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #186250;
+  color: var(--verde);
 }
 
 .nav li:nth-of-type(4) {
-  background-color: #c9d8d5;
+  background-color: var(--gris);
   border-radius: 10px;
 }
 .nav li:nth-of-type(4):hover {
-  background-color: #ee741a;
+  background-color: var(--naranja)
 }
 
 footer {
-  background-color: #1e8b71;
+  background-color: var(--verde);
 }
 
 footer p {
-  color: #fff;
+  color: var(--blanco);
 }
 
 .logo2 {
@@ -133,34 +143,42 @@ input,
 textarea {
   border-radius: 5px;
   border: 0;
-  outline: #ee741a;
+  outline: var(--naranja);
 }
 input {
   border-radius: 5px;
 }
 
 #naranja {
-  background-color: #ee741a;
+  background-color: var(--naranja);
   height: 40px;
   z-index: -1;
-  position: relative;
+  
 }
 
 #verde {
-  background-color: #1e8b71;
+  background-color: var(--verde);
   height: 40px;
-  position: relative;
+  
 }
 
 header{
-  background-color: #fff;
-  position: relative;
+  background-color: var(--blanco);
+}
+
+header>div:nth-of-type(2){
+  background-color: var(--verdelimon);
+  height: 150px;
+}
+header>div:nth-of-type(2)>div:nth-of-type(1){
+  background-image: url("./Assets/delivery.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 main{
-  margin: 100px;
+  margin-top: 250px;
 }
-
 
 .card{
   border-radius: 10px;
@@ -175,6 +193,15 @@ border:0;
 
 .card a{
   text-decoration: none;
-  color: #ee741a;
+  color: var(--naranja);
   font-weight: 500;
+}
+
+.delivery{
+  background-color: var(--blanco);
+  height: 50px;
+  background-image: url("./Assets/delivery.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
 }
