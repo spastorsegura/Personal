@@ -46,15 +46,18 @@
     </header>
 
     <!-- B.main -->
-    <main class="container-fluid">
+    <main class="container-fluid position-relative">
       <!-- 1 -->
-      <div class="row align-items-center position-relative">
-        <div class="col-md-9 col-sm-9">
+      <div class="row position-relative">
+        <div class="col-md p-0">
+          <img src="./Assets/portada_kerogo_desktop.jpg" alt="portada">
+        </div>
+        <!-- <div class="col-md-9 col-sm-9">
           <h1 class="p-4">
             Tú puedes ser parte del mejor negocio con tecnología 2021 que
             revoluciona el mercado peruano. ¿Estás listo?
           </h1>
-        </div>
+        </div> -->
       </div>
 
       <!-- 2 -->
@@ -129,30 +132,12 @@
       </div>
 
       <!-- 4 -->
-      <div class="row visually-hidden">
-        <div class="col-md"></div>
-        <div class="col-md p-5">
-          <h1 class="mb-3">¿Por qué es una oportunidad?</h1>
-          <h2>
-            ¡Ahora puedes invertir en la primera criptomoneda peruana o mejorar
-            la alimentación de miles de personas y ganar por cada compra que
-            hagan!
-          </h2>
-        </div>
-      </div>
-
-      <!-- 5 -->
       <div class="row position-relative">
-        <div class="col-md position-relative moneda">
-          <img
-            src="./Assets/monedas.svg"
-            alt="monedas"
-            class="position-absolute bottom-0 start-0"
-          />
+        <div class="col-md">
         </div>
         <div class="col-md">
           <div class="row">
-            <div class="col-md-12 p-5">
+            <div class="col-md-12">
               <h1 class="mb-3">¿Por qué es una oportunidad?</h1>
               <h2>
                 ¡Ahora puedes invertir en la primera criptomoneda peruana o
@@ -160,11 +145,11 @@
                 compra que hagan!
               </h2>
             </div>
-            <div class="col-md-12 p-5">
+            <div class="col-md-12 position-relative">
               <p>
-                <img src="./Assets/logo2.svg" alt="logo" width="90" /> es el
-                proyecto de network marketing con productos de alta rotación y
-                mayor proyección del Perú.
+                <img src="./Assets/logo2.svg" alt="logo" width="120" /> es el
+                proyecto de network marketing con productos <span style="font-weight: bold;">de alta rotación y
+                  mayor proyección</span>  del Perú.
               </p>
               <p>
                 Tenemos como misión transformar Latinoamérica en la fábrica de
@@ -175,14 +160,12 @@
         </div>
       </div>
 
-      <!-- 6 -->
-      <div class="row p-5">
-        <div class="col-md px-5 py-3">
-          <h1 class="mb-3">Conoce un poco más de keroGo</h1>
+      <!-- 5 -->
+      <div class="row">
+        <div class="col-md d-flex justify-content-center">
           <div class="video">
+            <h1 class="mb-3">Conoce un poco más de keroGo</h1>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/4t29JThiBFs"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -192,13 +175,13 @@
         </div>
       </div>
 
-      <!-- 7 -->
+      <!-- 6 -->
       <div class="row">
-        <div class="col-md p-5">
+        <div class="col-md">
           <h1>¿Cómo puedo ser parte de keroGo?</h1>
           <p>Puedes ser parte del éxito de KeroGo de dos formas:</p>
         </div>
-        <div class="col-md p-5">
+        <div class="col-md">
           <h1>1.</h1>
           <p>
             Refiere y gana por cada compra que alguien realice en
@@ -207,13 +190,13 @@
             >.
           </p>
         </div>
-        <div class="col-md p-5">
+        <div class="col-md">
           <h1>2.</h1>
           <p>Invierte, apoya a productores peruanos y gana dinero.</p>
         </div>
       </div>
 
-      <!-- 8 -->
+      <!-- 7 -->
       <div class="row">
         <div class="col-md text-center my-4">
           <a
@@ -228,7 +211,7 @@
         </div>
       </div>
 
-      <!-- 9 -->
+      <!-- 8 -->
       <div class="row p-4 align-items-center collapse" id="collapseRegister">
         <div class="col-md">
           <h3>¿Quieres registrarte?</h3>
@@ -278,7 +261,7 @@
         </div>
       </div>
 
-      <!-- 10 -->
+      <!-- 9 -->
       <div class="row p-5">
         <div class="row">
           <div class="col-md-7">
@@ -291,17 +274,16 @@
         </div>
 
         <div class="row text-center">
-          <div class="col-md m-3 p-3 position-relative">
+          <div class="col-md position-relative">
             <h1>1.</h1>
             <p class="pb-5">¡Gana por el valor de la criptomoneda kero!</p>
             <img
               src="./Assets/icon1.svg"
               alt="icono1"
-              width="50"
               class="position-absolute bottom-0 start-50 translate-middle-x pb-4"
             />
           </div>
-          <div class="col-md m-3 p-3 position-relative">
+          <div class="col-md position-relative">
             <h1>2.</h1>
             <p class="pb-5">
               ¡Gana por cada reconsumo en productos
@@ -315,11 +297,10 @@
             <img
               src="./Assets/icon2.svg"
               alt="icono2"
-              width="50"
               class="position-absolute bottom-0 start-50 translate-middle-x pb-4"
             />
           </div>
-          <div class="col-md m-3 p-3 position-relative">
+          <div class="col-md position-relative">
             <h1>3.</h1>
             <p class="pb-5">
               ¡Gana por cada compra de paquetes de criptomonedas KERO que hagan
@@ -328,47 +309,18 @@
             <img
               src="./Assets/icon3.svg"
               alt="icono3"
-              width="50"
               class="position-absolute bottom-0 start-50 translate-middle-x pb-4"
             />
           </div>
         </div>
       </div>
 
-      <!-- 11 -->
-      <div class="row text-center visually-hidden">
-        <div class="col-md m-3 p-3">
-          <h1>1.</h1>
-          <p>¡Gana por el valor de la criptomoneda kero!</p>
-          <img src="./Assets/icon1.svg" alt="icono1" width="50" />
-        </div>
-        <div class="col-md m-3 p-3">
-          <h1>2.</h1>
-          <p>
-            ¡Gana por cada reconsumo en productos
-            <a href="https://www.kero-mart.com/" style="font-weight: bold"
-              >Keromart</a
-            >
-            que todos tus socios hagan!
-          </p>
-          <img src="./Assets/icon2.svg" alt="icono2" width="50" />
-        </div>
-        <div class="col-md m-3 p-3">
-          <h1>3.</h1>
-          <p>
-            ¡Gana por cada compra de paquetes de criptomonedas KERO que hagan
-            todos tus socios en KeroGo!
-          </p>
-          <img src="./Assets/icon3.svg" alt="icono3" width="50" />
-        </div>
-      </div>
-
-      <!-- 12 -->
+      <!-- 10 -->
       <div class="row">
         <div class="col-md"></div>
       </div>
 
-      <!-- 13 -->
+      <!-- 11 -->
       <div class="row p-5">
         <div class="col-md-6">
           <h1>Criptomoneda KERO</h1>
@@ -383,7 +335,7 @@
         </div>
       </div>
 
-      <!-- 14 -->
+      <!-- 12 -->
       <div class="row align-items-center">
         <div class="col-md"></div>
         <div class="col-md p-5">
@@ -401,13 +353,15 @@
         </div>
       </div>
 
-      <!-- 15 infografía -->
+      <!-- 13  -->
 
       <div class="row">
         <div class="col-md">
           <h1 class="p-3">Hitos importantes</h1>
         </div>
       </div>
+
+      <!-- 14 info -->
 
       <div class="row">
         <div
@@ -472,7 +426,7 @@
         </div>
       </div>
 
-      <!-- 17 -->
+      <!-- 15 -->
       <div class="row p-5">
         <div class="col-md p-5">
           <h1>Conoce más de kero y su ecosistema...</h1>
