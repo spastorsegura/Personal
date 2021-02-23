@@ -50,6 +50,7 @@ header {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   border-radius: 35px;
+  font-size: 1.2rem;
   z-index: 9999;
 }
 .registratebtn:hover {
@@ -90,6 +91,7 @@ main > div:nth-of-type(2) {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 100%;
+  padding: 3rem;
 }
 
 /* 3 */
@@ -187,32 +189,38 @@ main
   font-family: "Montserrat", sans-serif;
 }
 
-/* 5 */
+/* 5 video */
 
 main > div:nth-of-type(5) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 main > div:nth-of-type(5) {
   padding: 5rem;
 }
 
 /* 6 */
+
+/* todos */
+main > div:nth-of-type(6) div{
+  padding: 4rem;
+}
+
 /* 6.1 */
 main > div:nth-of-type(6) div:nth-of-type(1) {
   background-color: var(--morado);
-  padding: 7rem;
 }
 main > div:nth-of-type(6) div:nth-of-type(1) h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 main > div:nth-of-type(6) div:nth-of-type(1) p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* 6.2 */
@@ -221,19 +229,18 @@ main > div:nth-of-type(6) div:nth-of-type(2) {
   background-image: url("./Assets/circuloNaranja.svg");
   background-repeat: no-repeat;
   background-size: 15%;
-  background-position: 80% -10%;
-  padding: 7rem;
+  background-position: 85% -8%;
 }
 main > div:nth-of-type(6) div:nth-of-type(2) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 10rem;
 }
 main > div:nth-of-type(6) div:nth-of-type(2) p {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* 6.3 */
@@ -242,19 +249,18 @@ main > div:nth-of-type(6) div:nth-of-type(3) {
   background-image: url("./Assets/circuloMorado.svg");
   background-repeat: no-repeat;
   background-size: 20%;
-  background-position: 115% 25%;
-  padding: 7rem;
+  background-position: 110% 25%;
 }
 main > div:nth-of-type(6) div:nth-of-type(3) h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 10rem;
 }
 main > div:nth-of-type(6) div:nth-of-type(3) p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* 8 formulario*/
@@ -307,12 +313,13 @@ main > div:nth-of-type(9) {
 main > div:nth-of-type(9) > div:nth-of-type(1) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
-  font-size: 3rem;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 main > div:nth-of-type(9) > div:nth-of-type(1) p {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(1),
@@ -321,33 +328,35 @@ main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(3) {
   background-color: var(--morado);
   border: 3px solid var(--blanco);
   padding: 3rem;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
+  font-weight:normal;
   font-size: 3rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) img {
-  width: 80px;
+  width: 60px;
+  margin-bottom: 2rem;
 }
 
 
-/* 10 */
+/* 10 Imagen tablet*/
 main > div:nth-of-type(10) {
   background-image: url("./Assets/web-kerogo.jpg");
   height: 400px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -361,15 +370,15 @@ main > div:nth-of-type(11) h1 {
 main > div:nth-of-type(11) p {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 10rem;
 }
 
-main > div:nth-of-type(11){
+main > div:nth-of-type(11)> div:nth-of-type(1){
   background-image: url("./Assets/Recurso4.svg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100% 100%;
   background-position: center 80%;
-  height: 700px;
 }
 
 /* 12 */
@@ -377,6 +386,7 @@ main > div:nth-of-type(12) {
   background-color: var(--gris);
   height: 400px;
 }
+
 main > div:nth-of-type(12) > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso6.svg");
   background-repeat: no-repeat;
@@ -413,7 +423,7 @@ main > div:nth-of-type(13) > div:nth-of-type(1) h1 {
   font-size: 2rem;
 }
 
-/* 15 */
+/* 15 video */
 
 main > div:nth-of-type(15) > div:nth-of-type(1) h1 {
   color: var(--naranja);
@@ -424,15 +434,23 @@ main > div:nth-of-type(15) > div:nth-of-type(1) p {
   font-family: "Montserrat", sans-serif;
 }
 
+main > div:nth-of-type(15) {
+margin: 2rem;  
+}
+
 /* Footer */
 footer {
   background-color: var(--morado);
+}
+footer div:nth-of-type(1) {
+  padding: 1rem;
+  padding-top: 3rem;
 }
 
 footer h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 footer p {
@@ -444,6 +462,7 @@ footer small {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 footer a {
@@ -461,13 +480,17 @@ hr {
   background-color: var(--celeste);
 }
 
+iframe{
+  width: 70rem;
+  height: 40rem;
+}
+
 
 /* Medias queries */
+
+/* sm */
 @media (max-width: 767.98px) {
-  iframe{
-    height: 200px;
-  }
-  
+    
   .nav a {
     background-color: var(--naranja);
     color: var(--blanco);
@@ -476,9 +499,7 @@ hr {
     border-radius: 15px;
     padding: 10px;
   }
-  header > div:nth-of-type(2) {
-    padding: 10px !important;
-  }
+  
   main > div:nth-of-type(1) {
     background-color: var(--celeste);
     background-image: url("./Assets/Recurso2.svg");
@@ -489,76 +510,183 @@ hr {
     z-index: 9999;
   }
 
-  main > div:nth-of-type(6) {
-    padding: 0 !important;
-  }
-
-  main > div:nth-of-type(14) > div:nth-of-type(2) {
-    height: 300px;
-    padding: 15px !important;
-  }
- 
-  main > div:nth-of-type(17) > div:nth-of-type(2) {
-    height: auto;
-  }
-
-  
-
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 100%;
-  }
-  
-}
-
-
-@media (min-width: 768px) and (max-width: 1199.98px) {
-
-  iframe{
-    height: 500px;
-  }
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center bottom;
-  }
-
-
-}
-
-@media (min-width: 1200px) {
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 100%;
-  }
-}
-@media (min-width: 1400px) {
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 200%;
+  header > div:nth-of-type(2) {
+    padding: 10px !important;
   }
 
   main > div:nth-of-type(4){
     background-image: url("./Assets/monedas.svg"),url("./Assets/trama5.svg");
     background-repeat: no-repeat,no-repeat;
+    background-size: 40%, 100%;
+    background-position: -10% 120%, center 0%;
+  }
+
+  main > div:nth-of-type(5) iframe {
+    width: 20rem;
+    height: 15rem;
+  }
+  main > div:nth-of-type(5) h1 {
+    font-size: 2rem;
+  }
+
+  main > div:nth-of-type(6) div{
+    padding: 2rem;
+  }
+
+  main > div:nth-of-type(9) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center 100%;
+  }
+
+  main > div:nth-of-type(11)> div:nth-of-type(1){
+    background-image: url("./Assets/Recurso4.svg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center 100%;
+    height: auto;
+  }
+
+  main > div:nth-of-type(11) h1 {
+    color: var(--morado);
+    font-family: "Hepta Slab", serif;
+    font-size: 2rem;
+  }
+  main > div:nth-of-type(11) p {
+    color: var(--morado);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+  }
+  
+
+  main > div:nth-of-type(14) > div:nth-of-type(2) {
+    height: 300px;
+    padding: 15px !important;
+  }
+
+  main > div:nth-of-type(15) iframe {
+    width: 10rem;
+    }
+ 
+  main > div:nth-of-type(17) > div:nth-of-type(2) {
+    height: auto;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+  main > div:nth-of-type(4){
+    background-image: url("./Assets/monedas.svg"),url("./Assets/trama5.svg");
+    background-repeat: no-repeat,no-repeat;
     background-size: 55%, 100%;
-    background-position: 0% 0%, center 0%;
+    background-position: 0% 100%, center 0%;
   }
-  iframe{
-    width: 70rem;
-    height: 40rem;
+
+  main > div:nth-of-type(5) iframe {
+    width: 40rem;
+    height: 30rem;
   }
+
+  main > div:nth-of-type(9) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center 80%;
+  }
+  main > div:nth-of-type(11)> div:nth-of-type(1){
+    background-image: url("./Assets/Recurso4.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center 80%;
+    height: 500px;
+  }
+
+  main > div:nth-of-type(15) iframe {
+    width: 17rem;
+    height: 12rem;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+
+  main > div:nth-of-type(4){
+    background-image: url("./Assets/monedas.svg"),url("./Assets/trama5.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 55%, 100%;
+    background-position: 0% 100%, center 0%;
+  }
+
+  main > div:nth-of-type(5) iframe {
+    width: 40rem;
+    height: 30rem;
+  }
+  
+  main > div:nth-of-type(9) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center 100%;
+  }
+
+  main > div:nth-of-type(11)> div:nth-of-type(1){
+    background-image: url("./Assets/Recurso4.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center 80%;
+    height: 700px;
+  }
+
+  main > div:nth-of-type(15) iframe {
+    width: 30rem;
+    height: 20rem;
+    }
+}
+
+/* xxl */
+
+@media (min-width: 1400px) {
+  
+  main > div:nth-of-type(4){
+    background-image: url("./Assets/monedas.svg"),url("./Assets/trama5.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 55%, 100%;
+    background-position: 0% 100%, center 0%;
+  }
+
+  main > div:nth-of-type(5) iframe {
+    width: 40rem;
+    height: 30rem;
+  }
+
+  main > div:nth-of-type(9) {
+    background-color: var(--blanco);
+    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 100%;
+    background-position: 100% 0, center bottom  -300px;
+  }
+
+  main > div:nth-of-type(11)> div:nth-of-type(1){
+    background-image: url("./Assets/Recurso4.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center 80%;
+    height: 500px;
+  }
+
+  main > div:nth-of-type(15) iframe {
+    width: 30rem;
+    height: 20rem;
+    }
+
+
 }
 
 
