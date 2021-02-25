@@ -58,7 +58,7 @@ header {
 
 /* 1 */
 main > div:nth-of-type(1) {
-  background-color: var(--celeste);
+  background-color: var(--morado);
   background-image: url("./Assets/portada_kerogo_desktop.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -136,7 +136,7 @@ main > div:nth-of-type(3) div:nth-of-type(2) textarea {
 /* 4 */
 
 main > div:nth-of-type(4) {
-  background-image: url("./Assets/monedas.svg"), url("./Assets/trama5.svg");
+  background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 55%, 100%;
   background-position: 0% 100%, center 0%;
@@ -534,7 +534,7 @@ main div:nth-of-type(7) a{
 
 
   main > div:nth-of-type(1) {
-    background-color: var(--celeste);
+    background-color: var(--morado);
     background-image: url("./Assets/portada_kerogo_movil.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -548,7 +548,7 @@ main div:nth-of-type(7) a{
   }
 
   main > div:nth-of-type(4) {
-    background-image: url("./Assets/monedas.svg"), url("./Assets/trama5.svg");
+    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, 100%;
     background-position: -10% 120%, center 0%;
@@ -673,7 +673,7 @@ main div:nth-of-type(7) a{
 @media (min-width: 767.5px) and (max-width: 1023.4px){
 
   main > div:nth-of-type(1) {
-    background-color: var(--celeste);
+    background-color: var(--morado);
     background-image: url("./Assets/portada_kerogo_desktop.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -728,7 +728,7 @@ main div:nth-of-type(7) a{
 @media (min-width: 1023.5px) and (max-width: 1199.5px){
 
   main > div:nth-of-type(1) {
-    background-color: var(--celeste);
+    background-color: var(--morado);
     background-image: url("./Assets/portada_kerogo_desktop.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -738,7 +738,7 @@ main div:nth-of-type(7) a{
   }
 
   main > div:nth-of-type(4) {
-    background-image: url("./Assets/monedas.svg"), url("./Assets/trama5.svg");
+    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 55%, 100%;
     background-position: 0% 100%, center 0%;
@@ -766,7 +766,7 @@ main div:nth-of-type(7) a{
 /* xl */
 @media (min-width: 1200px) and (max-width: 1399.5px){
   main > div:nth-of-type(4) {
-    background-image: url("./Assets/monedas.svg"), url("./Assets/trama5.svg");
+    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 55%, 100%;
     background-position: 0% 100%, center 0%;
@@ -803,7 +803,7 @@ main div:nth-of-type(7) a{
 
 @media (min-width: 1400px) {
   main > div:nth-of-type(4) {
-    background-image: url("./Assets/monedas.svg"), url("./Assets/trama5.svg");
+    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 55%, 100%;
     background-position: 0% 100%, center 0%;
