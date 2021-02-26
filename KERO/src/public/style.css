@@ -768,7 +768,7 @@ main div:nth-of-type(7) a{
   main > div:nth-of-type(4) {
     background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
-    background-size: 55%, 100%;
+    background-size: 52%, 100%;
     background-position: 0% 100%, center 0%;
   }
 
@@ -805,7 +805,7 @@ main div:nth-of-type(7) a{
   main > div:nth-of-type(4) {
     background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
     background-repeat: no-repeat, no-repeat;
-    background-size: 55%, 100%;
+    background-size: 52%, 100%;
     background-position: 0% 100%, center 0%;
   }
 
