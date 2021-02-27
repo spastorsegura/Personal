@@ -35,6 +35,7 @@ header {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   border-radius: 35px;
+  margin: 0 2rem;
 }
 .nav a:hover {
   background-color: var(--celeste);
@@ -50,9 +51,10 @@ header {
   border-radius: 35px;
   font-size: 1.2rem;
   z-index: 9999;
+  font-weight: bold;
 }
 .registratebtn:hover {
-  background-color: var(--celeste);
+  background-color: var(--morado);
   color: var(--blanco);
 }
 
@@ -96,10 +98,13 @@ main > div:nth-of-type(2) {
 main > div:nth-of-type(3) {
   background-color: var(--naranja);
   z-index: 9999;
+  padding: 5rem;
 }
 main > div:nth-of-type(3) h3 {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 main > div:nth-of-type(3) p {
   color: var(--blanco);
@@ -118,8 +123,17 @@ main > div:nth-of-type(3) p:nth-of-type(3) a {
   color: var(--blanco);
 }
 
-main > div:nth-of-type(3) div:nth-of-type(2) input {
-  border-radius: 25px;
+main > div:nth-of-type(3) div:nth-of-type(2) input{
+  border-radius: 2rem;
+  padding: 0.8rem;
+}
+
+main > div:nth-of-type(3) div:nth-of-type(2) input, textarea{
+  margin-bottom: 1rem;
+  color: var(--morado);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  border: 0;
 }
 
 main > div:nth-of-type(3) div:nth-of-type(2) input::placeholder,
@@ -127,10 +141,17 @@ main > div:nth-of-type(3) div:nth-of-type(2) textarea::placeholder {
   color: var(--naranja);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 main > div:nth-of-type(3) div:nth-of-type(2) textarea {
   border-radius: 15px;
+}
+main > div:nth-of-type(3) div:nth-of-type(2) button {
+  border-radius: 2rem;
+}
+main > div:nth-of-type(3)> div:nth-of-type(2) form {
+  margin: 0 1rem;
 }
 
 /* 4 */
@@ -161,7 +182,7 @@ main
   div:nth-of-type(2)
   div:nth-of-type(1)
   div:nth-of-type(1) {
-  padding: 5rem;
+  padding: 8rem;
 }
 main
   > div:nth-of-type(4)
@@ -169,8 +190,15 @@ main
   div:nth-of-type(1)
   div:nth-of-type(2) {
   background-color: var(--morado);
-  padding: 5rem;
+  padding: 8rem;
   z-index: -99;
+
+  background-image: url("./Assets/circuloNaranja.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 18%;
+  background-position: 90% -25%, center 0%;
+
+  padding-top: 10rem;
 }
 main
   > div:nth-of-type(4)
@@ -182,6 +210,15 @@ main
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
+main
+  > div:nth-of-type(4)
+  div:nth-of-type(2)
+  div:nth-of-type(1)
+  div:nth-of-type(2)
+  p img {
+  width: 10rem;
+  margin-bottom: 1rem;
+}
 
 .btnsubmit {
   border: 2px solid var(--blanco);
@@ -191,22 +228,26 @@ main
 }
 
 /* 5 video */
-
 main > div:nth-of-type(5) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 main > div:nth-of-type(5) {
   padding: 5rem;
+}
+main > div:nth-of-type(5) iframe{
+  width: 70vw;
+  height: 60vh;
 }
 
 /* 6 */
 
 /* todos */
 main > div:nth-of-type(6) div {
-  padding: 4rem;
+  padding: 5rem;
 }
 
 /* 6.1 */
@@ -264,6 +305,7 @@ main > div:nth-of-type(6) div:nth-of-type(3) p {
   font-size: 1.5rem;
 }
 
+
 /* 8 formulario*/
 
 main > div:nth-of-type(8) {
@@ -313,9 +355,13 @@ main > div:nth-of-type(9) {
   background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 50%, 100%;
-  background-position: 100% 0%, 50% 150%;
-  padding: 3rem;
+  background-position: 100% 0%, center 180px;
+  padding: 5rem;
 }
+main > div:nth-of-type(9) div{
+  padding: 0;
+}
+
 main > div:nth-of-type(9) > div:nth-of-type(1) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
@@ -332,9 +378,8 @@ main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(1),
 main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(2),
 main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(3) {
   background-color: var(--morado);
-  border: 3px solid var(--blanco);
+  border: 0.5rem solid var(--blanco);
   padding: 3rem;
-  margin: 1rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) h1 {
@@ -342,6 +387,11 @@ main > div:nth-of-type(9) > div:nth-of-type(2) h1 {
   font-family: "Hepta Slab", serif;
   font-weight: normal;
   font-size: 3rem;
+}
+
+main > div:nth-of-type(9) > div:nth-of-type(2){
+  display: flex;
+  gap: 8rem;
 }
 
 main > div:nth-of-type(9) > div:nth-of-type(2) p {
@@ -367,6 +417,9 @@ main > div:nth-of-type(10) {
 }
 
 /* 11 */
+main > div:nth-of-type(11) {
+  padding: 5rem;
+}
 main > div:nth-of-type(11) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
@@ -375,62 +428,67 @@ main > div:nth-of-type(11) h1 {
 main > div:nth-of-type(11) p {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  padding-bottom: 10rem;
+  font-size: 1.5rem;
 }
 
-main > div:nth-of-type(11) > div:nth-of-type(1) {
+main > div:nth-of-type(11)> div:nth-of-type(1){
   background-image: url("./Assets/Recurso4.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center 80%;
+  height: 700px;
 }
 
 /* 12 */
 main > div:nth-of-type(12) {
   background-color: var(--gris);
-  height: 400px;
+  height: 500px;
+  padding: 5rem;
+
+  background-image: url("./Assets/trama1.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 100% 100%;
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(1) {
   background-image: url("./Assets/Recurso6.svg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100% 100%;
   background-position: center;
-  height: 400px;
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
   color: var(--morado);
   font-family: "Hepta Slab", serif;
+  font-weight: bold;
 }
 main > div:nth-of-type(12) > div:nth-of-type(2) h2 {
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(2) {
-  height: 100%;
-  background-image: url("./Assets/trama1.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 100%;
-  padding: 3rem;
+  padding: 0 8rem;
 }
+
 main > div:nth-of-type(12) > div:nth-of-type(2) img {
-  padding-bottom: 1rem;
-  padding-top: 3rem;
+  padding-bottom: 2rem;
+  width: 5rem;
 }
 
 /* 13 */
-main > div:nth-of-type(13) > div:nth-of-type(1) {
+main > div:nth-of-type(13){
   background-color: var(--morado);
+  padding: 2rem 5rem;
 }
 main > div:nth-of-type(13) > div:nth-of-type(1) h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 
 
@@ -446,41 +504,73 @@ main > div:nth-of-type(14)>div:nth-of-type(1){
 main > div:nth-of-type(15) > div:nth-of-type(1) h1 {
   color: var(--naranja);
   font-family: "Hepta Slab", serif;
+  font-weight: bold;
+  padding-bottom: 2rem;
 }
+
 main > div:nth-of-type(15) > div:nth-of-type(1) p {
   color: var(--naranja);
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 
 main > div:nth-of-type(15) {
-  margin: 2rem;
+  padding: 5rem;
 }
+
+main > div:nth-of-type(15)>div:nth-of-type(1) {
+  padding: 0;
+}
+main > div:nth-of-type(15)>div:nth-of-type(2) iframe{
+  width: 45vw;
+  height: 40vh;
+}
+main > div:nth-of-type(15)>div:nth-of-type(2){
+  text-align: center;
+}
+
 
 /* Footer */
 footer {
   background-color: var(--morado);
+  padding: 0;
 }
-footer div:nth-of-type(1) {
-  padding: 1rem;
-  padding-top: 3rem;
+footer>div:nth-of-type(1){padding: 2rem;}
+
+footer>div:nth-of-type(1)>div:nth-of-type(1){padding: 2rem;}
+
+footer div, p{
+  margin: 0;
 }
 
 footer h1 {
   color: var(--blanco);
   font-family: "Hepta Slab", serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 footer p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
 footer small {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+
+footer i {
+  font-size: 2rem;
+  margin: 0.3rem;
 }
 
 footer a {
@@ -491,347 +581,138 @@ footer a {
 /* detalles */
 
 hr {
-  border-top: 1px solid #fff;
+  border-top: 0.1rem solid #fff;
+  opacity: 1;
 }
 
 ::selection {
   background-color: var(--celeste);
 }
 
-iframe {
-  width: 70rem;
-  height: 40rem;
-}
-
 /* Medias queries */
 
 /* sm */
-@media (max-width: 767.98px) {
-  .nav a {
-    background-color: var(--naranja);
-    color: var(--blanco);
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 15px;
-    padding: 10px;
+@media screen and (max-width: 767px) {
+  main>div:nth-of-type(1){
+    background-image: url("./Assets/portada_kerogo_movil.jpg");
+  }
+  
+  main>div:nth-of-type(3), main>div:nth-of-type(8){
+    padding: 3rem;
   }
 
-  .registratebtn {
-    background-color: var(--naranja);
-    color: var(--blanco);
-    padding: 1rem 4rem;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 35px;
-    font-size: 1.2rem;
-    z-index: 9999;
+  main > div:nth-of-type(4) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1),main > div:nth-of-type(4) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(2){
+    padding: 3rem;
   }
 
-main div:nth-of-type(7) a{
-  padding: 1rem 2rem;
+  main>div:nth-of-type(4) h1{
+    font-size: 2rem !important;
+  }
+  main>div:nth-of-type(4) h2{
+    font-size: 1.7rem !important;
+  }
+  main>div:nth-of-type(4) p:nth-of-type(2){
+    margin-bottom: 14rem;
+  }
+  
+  main>div:nth-of-type(5){
+    padding: 3rem;
+  }
+
+  main>div:nth-of-type(5) iframe{
+    height: 25vh;
+  }
+
+  main>div:nth-of-type(6) div{
+    padding: 3rem;
+  }
+  
+.registratebtn{
   font-size: 1rem;
 }
 
+main>div:nth-of-type(9){
+  padding: 3rem;
+  background-position: 100% 0%, center 100%;
+}
+main>div:nth-of-type(9) p{
+  padding-bottom: 2rem;
+}
+main > div:nth-of-type(9) > div:nth-of-type(2) {
+  gap: 2rem;
+}
+main > div:nth-of-type(11){
+  padding: 3rem;
+}
+main > div:nth-of-type(11) h1{
+  font-size: 2rem;
+}
+main > div:nth-of-type(11)> div:nth-of-type(1){
+  background-size: contain;
+  background-position: center 100%;
+  height: 550px;
+}
 
-  main > div:nth-of-type(1) {
-    background-color: var(--morado);
-    background-image: url("./Assets/portada_kerogo_movil.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 200px;
-    background-position: center 40%;
-    z-index: 9999;
-  }
+main > div:nth-of-type(12){
+  padding: 3rem;
+  height: 750px;
+  background-size:100%;
+}
+main > div:nth-of-type(12)> div:nth-of-type(1){
+  height: 250px;
+}
 
-  header > div:nth-of-type(2) {
-    padding: 10px !important;
-  }
+main > div:nth-of-type(12) > div:nth-of-type(2){
+  padding: 0;
+}
+main > div:nth-of-type(13){
+  padding: 3rem;
+}
+main > div:nth-of-type(13) h1{
+  font-size: 2rem !important;
+}
+main > div:nth-of-type(15){
+  padding: 3rem;
+}
+main > div:nth-of-type(15) p{
+  margin-bottom: 2rem;
+}
+main > div:nth-of-type(15)>div:nth-of-type(2) iframe{
+  width: 17rem;
+  height: 10rem;
+}
+main > div:nth-of-type(15)>div:nth-of-type(2) h1{
 
-  main > div:nth-of-type(4) {
-    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 40%, 100%;
-    background-position: -10% 120%, center 0%;
-  }
+}
 
-  main > div:nth-of-type(4) div:nth-of-type(1) h1 {
-    color: var(--morado);
-    font-family: "Hepta Slab", serif;
-    font-size: 2.3rem;
-    font-weight: bold;
-  }
-  main > div:nth-of-type(4) div:nth-of-type(1) p {
-    color: var(--morado);
-    font-family: "Hepta Slab", serif;
-    font-size: 1rem;
-  }
-
-  div:nth-of-type(4) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1) {
-    padding: 2rem !important;
-  }
-
-  div:nth-of-type(4) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(2) {
-    padding: 2rem !important;
-  }
-
-
-  main > div:nth-of-type(5) iframe {
-    width: 20rem;
-    height: 15rem;
-  }
-  main > div:nth-of-type(5) h1 {
-    font-size: 2rem;
-  }
-
-  main > div:nth-of-type(6) div {
-    padding: 2rem;
-  }
-
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 100%;
-  }
-
-  main > div:nth-of-type(9) {
-    padding: 1rem !important;
-  }
-
-  main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(1),
-  main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(2),
-  main > div:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(3) {
-    background-color: var(--morado);
-    border: 3px solid var(--blanco);
-    padding: 1rem;
-    margin: 0.1rem;
-  }
-
-  main > div:nth-of-type(11) > div:nth-of-type(1) {
-    background-image: url("./Assets/Recurso4.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 100%;
-    /* height: auto; */
-  }
-
-  main > div:nth-of-type(11) h1 {
-    color: var(--morado);
-    font-family: "Hepta Slab", serif;
-    font-size: 2rem;
-  }
-
-  main > div:nth-of-type(11) p {
-    color: var(--morado);
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-  }
-
-  
-  main > div:nth-of-type(12) {
-    background-color: var(--gris);
-    height: 500px;
-  }
-
-  main > div:nth-of-type(12) > div:nth-of-type(1) {
-    background-image: url("./Assets/Recurso6.svg");
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
-    height: 250px;
-  }
-
-  main > div:nth-of-type(12) > div:nth-of-type(2){
-    padding: 1rem;
-  }
-  main > div:nth-of-type(12) > div:nth-of-type(2) img{
-    padding-top: 0rem;
-  }
+footer div{
+  text-align: center;
+}
 
 
-  /* 14 */
 
-  main > div:nth-of-type(14) > div:nth-of-type(2) {
-    height: 300px;
-    padding: 15px !important;
-  }
-
-  /* 15 */
-  main > div:nth-of-type(15) iframe {
-    width: 15rem;
-    height: 10rem;
-  }
-
-  footer div:nth-of-type(1) {
-    padding: 1rem;
-    padding-top: 1rem;
-  }
 }
 
 /* md */
-@media (min-width: 767.5px) and (max-width: 1023.4px){
+@media screen and (min-width: 767.5px) and (max-width: 1023.4px){
 
-  main > div:nth-of-type(1) {
-    background-color: var(--morado);
-    background-image: url("./Assets/portada_kerogo_desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 150px;
-    background-position: center;
-    z-index: 9999;
-  }
-
-  main > div:nth-of-type(4) {
-    background-image: url("./Assets/.svg"), url("./Assets/trama5.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 30%, 100%;
-    background-position: 0% 140%, center 0%;
-  }
   
-  /* main > div:nth-of-type(4)> div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2){
-    padding-bottom: 10rem;
-  } */
-
-  main > div:nth-of-type(5) iframe {
-    width: 40rem;
-    height: 30rem;
-  }
-
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 100%;
-  }
-  main > div:nth-of-type(11) > div:nth-of-type(1) {
-    background-image: url("./Assets/Recurso4.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 80%;
-    background-position: center 100%;
-    height: 500px;
-  }
-
-  main > div:nth-of-type(12) {
-    height: 320px;
-  }
-
-  main > div:nth-of-type(15) iframe {
-    width: 30rem;
-    height: 20rem;
-  }
 }
 
 /* 1024 px */
 
-@media (min-width: 1023.5px) and (max-width: 1199.5px){
+@media screen and (min-width: 1024px) and (max-width: 1199.5px){
 
-  main > div:nth-of-type(1) {
-    background-color: var(--morado);
-    background-image: url("./Assets/portada_kerogo_desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 140px;
-    background-position: center;
-    z-index: 9999;
-  }
-
-  main > div:nth-of-type(4) {
-    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 55%, 100%;
-    background-position: 0% 100%, center 0%;
-  }
-
-  main > div:nth-of-type(4)> div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2){
-    padding-bottom: 10rem;
-  }
-
-  main > div:nth-of-type(5) iframe {
-    width: 40rem;
-    height: 30rem;
-  }
-
-  main > div:nth-of-type(12) {
-    height: 380px;
-  }
-
-  main > div:nth-of-type(15) iframe {
-    width: 30rem;
-    height: 20rem;
-  }
+  
 }
 
 /* xl */
-@media (min-width: 1200px) and (max-width: 1399.5px){
-  main > div:nth-of-type(4) {
-    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 52%, 100%;
-    background-position: 0% 100%, center 0%;
-  }
-
-  main > div:nth-of-type(5) iframe {
-    width: 40rem;
-    height: 30rem;
-  }
-
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center 100%;
-  }
-
-  main > div:nth-of-type(11) > div:nth-of-type(1) {
-    background-image: url("./Assets/Recurso4.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center 80%;
-    height: 700px;
-  }
-
-  main > div:nth-of-type(15) iframe {
-    width: 30rem;
-    height: 20rem;
-  }
+@media screen and (min-width: 1200px) and (max-width: 1399.5px){
+ 
 }
 
 /* xxl */
 
-@media (min-width: 1400px) {
-  main > div:nth-of-type(4) {
-    background-image: url("./Assets/criptomonedas.png"), url("./Assets/trama5.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 52%, 100%;
-    background-position: 0% 100%, center 0%;
-  }
-
-  main > div:nth-of-type(5) iframe {
-    width: 40rem;
-    height: 30rem;
-  }
-
-  main > div:nth-of-type(9) {
-    background-color: var(--blanco);
-    background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
-    background-position: 100% 0, center bottom -300px;
-  }
-
-  main > div:nth-of-type(11) > div:nth-of-type(1) {
-    background-image: url("./Assets/Recurso4.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center 80%;
-    height: 500px;
-  }
-
-  main > div:nth-of-type(15) iframe {
-    width: 30rem;
-    height: 20rem;
-  }
+@media screen and (min-width: 1400px) {
+ 
 }
