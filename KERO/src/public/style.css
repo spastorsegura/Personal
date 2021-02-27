@@ -150,7 +150,7 @@ main > div:nth-of-type(3) div:nth-of-type(2) textarea {
 main > div:nth-of-type(3) div:nth-of-type(2) button {
   border-radius: 2rem;
 }
-main > div:nth-of-type(3)> div:nth-of-type(2) form {
+main > div:nth-of-type(3)> div:nth-of-type(2) form, main > div:nth-of-type(8)> div:nth-of-type(2) form {
   margin: 0 1rem;
 }
 
@@ -626,6 +626,9 @@ hr {
   main>div:nth-of-type(6) div{
     padding: 3rem;
   }
+  main>div:nth-of-type(6) h1{
+    margin-top: 2rem !important;
+  }
   
 .registratebtn{
   font-size: 1rem;
@@ -666,7 +669,7 @@ main > div:nth-of-type(12) > div:nth-of-type(2){
   padding: 0;
 }
 main > div:nth-of-type(13){
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 main > div:nth-of-type(13) h1{
   font-size: 2rem !important;
@@ -681,15 +684,31 @@ main > div:nth-of-type(15)>div:nth-of-type(2) iframe{
   width: 17rem;
   height: 10rem;
 }
-main > div:nth-of-type(15)>div:nth-of-type(2) h1{
-
-}
 
 footer div{
   text-align: center;
 }
 
+footer p:nth-of-type(1){
+  margin-bottom: 2rem;
+}
 
+footer small{
+  font-size: 0.8rem;
+}
+
+footer div:nth-of-type(1), footer div:nth-of-type(3){
+  text-align: center !important;
+}
+
+footer div:nth-of-type(2){
+  margin-bottom: 1rem;
+}
+
+footer img{
+  margin-bottom: 0.5rem;
+  width: 10rem;
+}
 
 }
 
