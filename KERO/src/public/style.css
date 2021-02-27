@@ -900,7 +900,7 @@ hr {
   }
 }
 
-/* xl */
+/* xl 1200-1400*/
 @media screen and (min-width: 1200px) and (max-width: 1399.5px) {
   main
     > div:nth-of-type(4)
@@ -924,15 +924,8 @@ hr {
     display: flex;
     gap: 2rem;
   }
-  main > div:nth-of-type(11) > div:nth-of-type(1){
+  main > div:nth-of-type(11) > div:nth-of-type(1) {
     height: 600px;
   }
 }
 
-/* xxl */
-
-@media screen and (min-width: 1920) {
-  main > div:nth-of-type(1) {
-    height: 40vh;
-}
-}
