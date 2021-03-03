@@ -10,6 +10,12 @@ font-family: 'Montserrat', sans-serif; */
   --gris: #f4f4f4;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 .logo {
   width: 200px;
   height: 72px;
@@ -17,6 +23,12 @@ font-family: 'Montserrat', sans-serif; */
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 2rem;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
 }
 
 header {
@@ -654,19 +666,21 @@ hr {
   }
 
   main > div:nth-of-type(3) i,
-  main > div:nth-of-type(8) i{
+  main > div:nth-of-type(8) i {
     position: absolute;
     top: 0;
   }
 
-  main > div:nth-of-type(3) h3, main > div:nth-of-type(8) h3{
+  main > div:nth-of-type(3) h3,
+  main > div:nth-of-type(8) h3 {
     font-size: 1.5rem;
   }
-  main > div:nth-of-type(3) p, main > div:nth-of-type(8) p{
+  main > div:nth-of-type(3) p,
+  main > div:nth-of-type(8) p {
     font-size: 0.9rem;
   }
 
-  main > div:nth-of-type(3) p:nth-of-type(3){
+  main > div:nth-of-type(3) p:nth-of-type(3) {
     margin-bottom: 2rem;
   }
 
@@ -675,11 +689,13 @@ hr {
     padding: 0 1rem;
   }
 
-  main > div:nth-of-type(3) > div:nth-of-type(2) form, main > div:nth-of-type(8) > div:nth-of-type(2) form{
+  main > div:nth-of-type(3) > div:nth-of-type(2) form,
+  main > div:nth-of-type(8) > div:nth-of-type(2) form {
     margin: 0 1rem;
   }
   main > div:nth-of-type(3) div:nth-of-type(2) input::placeholder,
-  main > div:nth-of-type(3) div:nth-of-type(2) textarea::placeholder,main > div:nth-of-type(8) div:nth-of-type(2) input::placeholder,
+  main > div:nth-of-type(3) div:nth-of-type(2) textarea::placeholder,
+  main > div:nth-of-type(8) div:nth-of-type(2) input::placeholder,
   main > div:nth-of-type(8) div:nth-of-type(2) textarea::placeholder {
     font-size: 1rem;
   }
@@ -706,11 +722,16 @@ hr {
     margin-bottom: 17rem;
   }
 
-  main > div:nth-of-type(4) div:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(2) p{
+  main
+    > div:nth-of-type(4)
+    div:nth-of-type(2)
+    div:nth-of-type(1)
+    div:nth-of-type(2)
+    p {
     font-size: 1rem;
   }
 
-  main > div:nth-of-type(4){
+  main > div:nth-of-type(4) {
     background-size: 75%, 100%;
   }
 
@@ -718,7 +739,7 @@ hr {
     padding: 3rem;
   }
 
-  main > div:nth-of-type(5) h1{
+  main > div:nth-of-type(5) h1 {
     font-size: 1.5rem;
   }
 
@@ -734,7 +755,7 @@ hr {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
-  main > div:nth-of-type(6) div:nth-of-type(1) p{
+  main > div:nth-of-type(6) div:nth-of-type(1) p {
     font-size: 1rem;
   }
 
@@ -758,21 +779,21 @@ hr {
   main > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1) {
     padding-right: 0;
   }
-  main > div:nth-of-type(9) > div:nth-of-type(1) h1{
+  main > div:nth-of-type(9) > div:nth-of-type(1) h1 {
     font-size: 1.5rem;
   }
 
-  main > div:nth-of-type(9) > div:nth-of-type(2) h1{
+  main > div:nth-of-type(9) > div:nth-of-type(2) h1 {
     font-size: 1.5rem;
   }
-  main > div:nth-of-type(9) > div:nth-of-type(2) p{
+  main > div:nth-of-type(9) > div:nth-of-type(2) p {
     font-size: 1rem;
   }
 
-  main > div:nth-of-type(10){
+  main > div:nth-of-type(10) {
     height: 300px;
     background-position: 45% 50%;
-    background-attachment:fixed;
+    background-attachment: fixed;
   }
 
   main > div:nth-of-type(11) {
@@ -781,7 +802,7 @@ hr {
   main > div:nth-of-type(11) h1 {
     font-size: 1.5rem;
   }
-  main > div:nth-of-type(11) p{
+  main > div:nth-of-type(11) p {
     font-size: 1rem;
   }
 
@@ -790,16 +811,15 @@ hr {
     background-position: center 100%;
     height: 350px; */
     /* display: none; */
-    background-image:none;
+    background-image: none;
   }
-  main > div:nth-of-type(11){
+  main > div:nth-of-type(11) {
     background-image: url("./Assets/Recurso4.svg");
     background-repeat: no-repeat;
     background-position: 50% 90%;
     background-size: 90%;
     height: 450px;
   }
-
 
   main > div:nth-of-type(12) {
     padding: 3rem;
@@ -814,10 +834,10 @@ hr {
     padding: 0;
   }
 
-  main > div:nth-of-type(12) > div:nth-of-type(2) h1{
+  main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
     font-size: 1.5rem;
   }
-  main > div:nth-of-type(12) > div:nth-of-type(2) h2{
+  main > div:nth-of-type(12) > div:nth-of-type(2) h2 {
     font-size: 1rem;
   }
 
@@ -835,7 +855,7 @@ hr {
     font-size: 1rem;
   }
 
-  main > div:nth-of-type(15) > div:nth-of-type(2){
+  main > div:nth-of-type(15) > div:nth-of-type(2) {
     padding: 0;
   }
 
@@ -843,7 +863,7 @@ hr {
     width: 70vw;
     height: 10rem;
   }
-  main > div:nth-of-type(15) > div:nth-of-type(1) h1{
+  main > div:nth-of-type(15) > div:nth-of-type(1) h1 {
     font-size: 1.5rem;
   }
 
@@ -854,10 +874,9 @@ hr {
   footer p:nth-of-type(1) {
     margin-bottom: 2rem;
   }
-  footer p{
+  footer p {
     font-size: 1rem;
   }
-
 
   footer small {
     font-size: 0.8rem;
@@ -877,7 +896,7 @@ hr {
     width: 10rem;
   }
 
-  footer h1{
+  footer h1 {
     font-size: 1rem;
   }
 }
@@ -1088,7 +1107,7 @@ hr {
     padding: 5rem;
   }
 
-  main > div:nth-of-type(11) > div:nth-of-type(1){
+  main > div:nth-of-type(11) > div:nth-of-type(1) {
     height: 900px;
   }
 }
