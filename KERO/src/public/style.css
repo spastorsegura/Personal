@@ -10,11 +10,6 @@ font-family: 'Montserrat', sans-serif; */
   --gris: #f4f4f4;
 }
 
-/* html,
-body {
-  width: 100%;
-  height: 100%;
-} */
 
 .logo {
   width: 200px;
@@ -25,11 +20,6 @@ body {
   margin: 0 2rem;
 }
 
-/* .wrapper{
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-} */
 
 header {
   background-color: var(--morado);
@@ -457,19 +447,13 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 }
 
 /* 10 Imagen tablet*/
-main > div:nth-of-type(10){
-  position: relative;
-  height: 400px;
-}
-main > div:nth-of-type(10)> div:nth-of-type(1) {
-  position: absolute;
-  top: 0;
-  left: 0;
+main > div:nth-of-type(10) {
   background-image: url("./Assets/web-kerogo.jpg");
-  width: 100%;
-  height: 400px;
+  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
