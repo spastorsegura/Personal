@@ -108,18 +108,27 @@ main > div:nth-of-type(3) h3 {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main > div:nth-of-type(3) p,
 main > div:nth-of-type(8) p {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 1.7rem;
+  font-size: 1.25rem;
 }
 main > div:nth-of-type(3) p:nth-of-type(1),
 main > div:nth-of-type(8) p:nth-of-type(1) {
   margin-bottom: 2rem;
+}
+main > div:nth-of-type(3) p:nth-of-type(2),
+main > div:nth-of-type(8) p:nth-of-type(2) {
+  margin-bottom: 1rem;
+}
+
+main > div:nth-of-type(3) p:nth-of-type(2),main > div:nth-of-type(3) p:nth-of-type(3),
+main > div:nth-of-type(8) p:nth-of-type(2),main > div:nth-of-type(8) p:nth-of-type(3) {
+  font-size: 1rem;
 }
 
 main > div:nth-of-type(3) > div:nth-of-type(1),
@@ -147,7 +156,7 @@ main > div:nth-of-type(3) div:nth-of-type(2) textarea {
   margin-bottom: 1rem;
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 0;
 }
 
@@ -236,7 +245,7 @@ main
   p
   img {
   width: 7.684rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .btnsubmit {
@@ -335,7 +344,7 @@ main > div:nth-of-type(8) h3 {
   color: var(--blanco);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main > div:nth-of-type(8) p:nth-of-type(2),
 main > div:nth-of-type(8) p:nth-of-type(3) {
@@ -358,7 +367,7 @@ main > div:nth-of-type(8) div:nth-of-type(2) textarea {
   margin-bottom: 1rem;
   color: var(--morado);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 0;
 }
 
@@ -367,7 +376,7 @@ main > div:nth-of-type(8) div:nth-of-type(2) textarea::placeholder {
   color: var(--naranja);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 main > div:nth-of-type(8) div:nth-of-type(2) textarea {
@@ -713,7 +722,7 @@ hr {
   main > div:nth-of-type(4) div:nth-of-type(2) h2 {
     font-size: 1rem;
   }
-  main > div:nth-of-type(4) p:nth-of-type(2) {
+  main > div:nth-of-type(4) p:nth-of-type(1) {
     margin-bottom: 17rem;
   }
 
@@ -904,8 +913,8 @@ hr {
     div:nth-of-type(2)
     div:nth-of-type(1)
     div:nth-of-type(2)
-    p:nth-of-type(2) {
-    margin-bottom: 20rem;
+    p:nth-of-type(1) {
+    margin-bottom: 18rem;
   }
   main > div:nth-of-type(5) iframe {
     height: 35vh;
