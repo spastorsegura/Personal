@@ -447,7 +447,7 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 }
 
 /* 10 Imagen tablet*/
-main > div:nth-of-type(10) {
+/* main > div:nth-of-type(10) {
   background-image: url("./Assets/web-kerogo.jpg");
   min-height: 400px;
   background-repeat: no-repeat;
@@ -456,7 +456,7 @@ main > div:nth-of-type(10) {
   -webkit-background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 /* 11 */
 main > div:nth-of-type(11) {
@@ -634,6 +634,11 @@ hr {
 
 ::selection {
   background-color: var(--celeste);
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
 
 /* Medias queries */
