@@ -448,7 +448,7 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 
 /* 10 Imagen tablet*/
 main > div:nth-of-type(10) {
-  background-image: url("./Assets/web-kerogo.jpg");
+  /* background-image: url("./Assets/web-kerogo.jpg"); */
 }
 main > div:nth-of-type(10) {
   position: relative;
