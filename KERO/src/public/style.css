@@ -461,12 +461,14 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
   overflow: hidden;
   height: 340px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .paralax-image img {
   position: absolute;
   height: 100vh;
-  width:auto;
+  width: auto;
 }
 
 /* 11 */
@@ -688,8 +690,14 @@ hr {
     margin: 0 0.5rem;
     height: 50px;
   }
+  .paralax-image {
+    height: 150px;
+  }
+  .paralax-image img {
+    height: 80vh;
+    width: 250%;
+  }
 
-  
   main > div:nth-of-type(1) {
     background-image: url("./Assets/portada_kerogo_movil.jpg");
   }
@@ -1153,7 +1161,6 @@ hr {
   main > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1) {
     padding-right: 30rem;
     padding-left: 0;
-    
   }
 }
 
