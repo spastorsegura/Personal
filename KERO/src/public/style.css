@@ -10,6 +10,10 @@ font-family: 'Montserrat', sans-serif; */
   --gris: #f4f4f4;
 }
 
+body{
+  scroll-behavior: smooth;
+}
+
 .logo {
   width: 200px;
   height: 72px;
@@ -120,10 +124,7 @@ main > div:nth-of-type(3) p:nth-of-type(1),
 main > div:nth-of-type(8) p:nth-of-type(1) {
   margin-bottom: 2rem;
 }
-main > div:nth-of-type(3) p:nth-of-type(2),
-main > div:nth-of-type(8) p:nth-of-type(2) {
-  margin-bottom: 1rem;
-}
+
 
 main > div:nth-of-type(3) p:nth-of-type(2),
 main > div:nth-of-type(3) p:nth-of-type(3),
@@ -210,7 +211,7 @@ main
   div:nth-of-type(2)
   div:nth-of-type(1)
   div:nth-of-type(1) {
-  padding: 8rem;
+  padding: 10rem;
 }
 main
   > div:nth-of-type(4)
@@ -218,7 +219,7 @@ main
   div:nth-of-type(1)
   div:nth-of-type(2) {
   background-color: var(--morado);
-  padding: 8rem;
+  padding: 10rem;
   z-index: -99;
 
   background-image: url("./Assets/circuloNaranja.svg");
@@ -512,7 +513,6 @@ main > div:nth-of-type(12) > div:nth-of-type(1) {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  position: relative;
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
@@ -591,6 +591,7 @@ main > div:nth-of-type(15) {
 }
 main > div:nth-of-type(15) img {
   width: 7.914rem;
+  margin-bottom: 1rem;
 }
 
 main > div:nth-of-type(15) > div:nth-of-type(1) {
@@ -676,12 +677,13 @@ hr {
   background-color: var(--celeste);
 }
 
+
 /* Medias queries */
 
 /* sm 768*/
 @media screen and (max-width: 767px) {
   .logo {
-    width: 120px;
+    width: 130px;
   }
   .nav a {
     padding: 0.6rem 0.6rem;
@@ -893,6 +895,9 @@ hr {
   main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
     font-size: 1.5rem;
   }
+  main > div:nth-of-type(12) > div:nth-of-type(2) br {
+    display: none;
+  }
   main > div:nth-of-type(12) > div:nth-of-type(2) h2 {
     font-size: 1rem;
   }
@@ -917,16 +922,26 @@ hr {
 
   main > div:nth-of-type(15) > div:nth-of-type(1) p{
     margin: 0;
+    margin-bottom: 2rem;
   }
 
   main > div:nth-of-type(15) img {
     width: 6rem;
+  }
+  
+  main > div:nth-of-type(15) br {
+    display: none;
   }
 
   main > div:nth-of-type(15) > div:nth-of-type(2) iframe {
     width: 70vw;
     height: 10rem;
   }
+
+  main > div:nth-of-type(15) > div:nth-of-type(1) h1{
+    padding-bottom: 0;
+  }
+
   main > div:nth-of-type(15) > div:nth-of-type(1) h1 {
     font-size: 1.5rem;
   }
@@ -1200,6 +1215,10 @@ hr {
     padding-right: 30rem;
     padding-left: 0;
   }
+  main > div:nth-of-type(15) > div:nth-of-type(1) p{
+    margin-right: 8rem;
+  }
+
 }
 
 @media screen and (min-width: 1400px) {
