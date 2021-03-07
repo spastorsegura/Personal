@@ -508,6 +508,7 @@ main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
   font-family: "Hepta Slab", serif;
   font-weight: bold;
   font-size: 1.75rem;
+  margin-bottom: 0;
 }
 main > div:nth-of-type(12) > div:nth-of-type(2) h2 {
   color: var(--morado);
@@ -522,7 +523,7 @@ main > div:nth-of-type(12) > div:nth-of-type(2) {
 
 main > div:nth-of-type(12) > div:nth-of-type(2) img {
   padding-bottom: 2rem;
-  width: 5rem;
+  width: 4.063rem;
 }
 
 /* 13 */
@@ -564,6 +565,9 @@ main > div:nth-of-type(15) > div:nth-of-type(1) p {
 
 main > div:nth-of-type(15) {
   padding: 5rem;
+}
+main > div:nth-of-type(15) img{
+  width: 7.914rem;
 }
 
 main > div:nth-of-type(15) > div:nth-of-type(1) {
@@ -642,6 +646,7 @@ footer a:hover {
 hr {
   border-top: 0.1rem solid #fff;
   opacity: 1;
+  margin: 0;
 }
 
 ::selection {
@@ -860,8 +865,8 @@ hr {
   main > div:nth-of-type(13) {
     padding: 2rem 3rem;
   }
-  main > div:nth-of-type(13) h1 {
-    font-size: 2rem !important;
+  main > div:nth-of-type(13) > div:nth-of-type(1) h1 {
+    font-size: 1.5rem;
   }
   main > div:nth-of-type(15) {
     padding: 3rem;
@@ -873,6 +878,10 @@ hr {
 
   main > div:nth-of-type(15) > div:nth-of-type(2) {
     padding: 0;
+  }
+
+  main > div:nth-of-type(15) img{
+    width: 6rem;
   }
 
   main > div:nth-of-type(15) > div:nth-of-type(2) iframe {
@@ -896,6 +905,7 @@ hr {
 
   footer small {
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
 
   footer div:nth-of-type(1),
@@ -908,12 +918,13 @@ hr {
   }
 
   footer img {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     width: 10rem;
   }
 
   footer h1 {
     font-size: 1rem;
+    margin-bottom: .5rem;
   }
 }
 
@@ -986,6 +997,7 @@ hr {
 
   footer small {
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
 
   footer div:nth-of-type(1),
@@ -998,8 +1010,8 @@ hr {
   }
 
   footer img {
-    margin-bottom: 0.5rem;
     width: 10rem;
+    margin-bottom: 0;
   }
 }
 
