@@ -498,7 +498,7 @@ main > div:nth-of-type(11) > div:nth-of-type(1) {
 /* 12 */
 main > div:nth-of-type(12) {
   background-color: var(--gris);
-  height: 500px;
+  height: 400px;
   padding: 5rem;
 
   background-image: url("./Assets/trama1.svg");
@@ -512,6 +512,7 @@ main > div:nth-of-type(12) > div:nth-of-type(1) {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  position: relative;
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(2) h1 {
@@ -533,7 +534,7 @@ main > div:nth-of-type(12) > div:nth-of-type(2) {
 }
 
 main > div:nth-of-type(12) > div:nth-of-type(2) img {
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding-bottom: 2rem;
   width: 4.063rem;
 }
