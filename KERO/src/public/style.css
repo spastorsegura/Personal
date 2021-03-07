@@ -453,9 +453,20 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 
 /* 10 Imagen tablet*/
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
+.content {
+  padding: 0;
+}
+
+.paralax-image {
+  overflow: hidden;
+  height: 340px;
+  position: relative;
+}
+
+.paralax-image img {
+  position: absolute;
+  height: 100vh;
+  min-width:100%;
 }
 
 /* 11 */
@@ -539,10 +550,6 @@ main > div:nth-of-type(13) > div:nth-of-type(1) h1 {
 
 /* 14 */
 
-main > div:nth-of-type(14) > div:nth-of-type(1) {
-  /* overflow: auto; */
-  /* cursor: move; */
-}
 main > div:nth-of-type(14) > div:nth-of-type(1) img {
   pointer-events: none;
 }

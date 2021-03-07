@@ -139,8 +139,7 @@
             ></textarea>
             <button
               type="submit"
-              class="form-control btnsubmit text-uppercase"
-            />Enviar</Button>
+              class="form-control btnsubmit text-uppercase">Enviar</button>
           </form>
         </div>
       </div>
@@ -347,8 +346,11 @@
       </div>
       <!-- 10 -->
       <div class="row">
-          <div class="col-md parallax-window" data-parallax="scroll" data-image-src="./Assets/web-kerogo.jpg">
+        <div class="content">
+          <div class="paralax-image">
+            <img src="./Assets/web-kerogo.jpg">
           </div>
+        </div>
       </div>
 
       <!-- 11 -->
@@ -486,9 +488,22 @@
 
           <!-- JavaScript flyckity-->
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
       
+      <!-- parallax -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function() {
+          var onScroll = function() {
+            var scrollTop = $(this).scrollTop();
+            $('.paralax-image').each(function(index, elem) {
+              var $elem = $(elem);
+              $elem.find('img').css('top', scrollTop - $elem.offset().top);
+            });
+          };
+          onScroll.apply(window);
+          $(window).on('scroll', onScroll);
+        });
+      </script>
   </body>
 </html>
