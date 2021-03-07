@@ -391,7 +391,7 @@ main > div:nth-of-type(8) div:nth-of-type(2) button {
 
 /* 9 */
 main > div:nth-of-type(9) {
-  background-color: var(--blanco);
+  /* background-color: var(--blanco); */
   background-image: url("./Assets/trama2.svg"), url("./Assets/trama3.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 50%, 100%;
@@ -455,7 +455,6 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 
 .content {
   padding: 0;
-
 }
 
 .paralax-image {
