@@ -455,6 +455,7 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 
 .content {
   padding: 0;
+
 }
 
 .paralax-image {
@@ -466,7 +467,7 @@ main > div:nth-of-type(9) > div:nth-of-type(2) img {
 .paralax-image img {
   position: absolute;
   height: 100vh;
-  min-width:100%;
+  width:auto;
 }
 
 /* 11 */
@@ -688,6 +689,8 @@ hr {
     margin: 0 0.5rem;
     height: 50px;
   }
+
+  
   main > div:nth-of-type(1) {
     background-image: url("./Assets/portada_kerogo_movil.jpg");
   }
