@@ -32,6 +32,9 @@
 
     <!-- estilos propios -->
     <link rel="stylesheet" href="./style.css" />
+    
+    <!-- CSS flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   </head>
 
   <body>
@@ -393,9 +396,11 @@
       <!-- 14 info -->
 
       <div class="row">
-        <div class="col-md p-0">
-            <img src="./Assets/infografia.png" alt="Infografía">
+        <div class="carousel col-md p-0" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false,"wrapAround": true}'>
+          <img src="./Assets/infografia.png" alt="Infografía" >
+          <img src="./Assets/infografia.png" alt="Infografía" >
         </div>
+            
       </div>
 
       <!-- 15 -->
@@ -481,5 +486,8 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+
+          <!-- JavaScript -->
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
