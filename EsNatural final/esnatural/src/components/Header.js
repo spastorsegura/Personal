@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import './css/estilos.css'
 
 export default function Header() {
   return (
@@ -22,10 +21,10 @@ export default function Header() {
                 <a className="nav-link" href="#">Contacto</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="sesion.html"
+                <Link className="nav-link" to="/login"
                   >Iniciar sesión
                   <i className="bi bi-person-fill" style={{color: '#ee741a'}}></i
-                ></a>
+                ></Link>
               </li>
             </ul>
           </nav>   

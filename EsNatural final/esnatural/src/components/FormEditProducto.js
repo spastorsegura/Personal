@@ -1,36 +1,55 @@
-import React, { useState, useEffect } from "react";
-import { crearProducto } from "../services/productoService";
+import React, {useState, useEffect} from 'react'
+import {editarProducto, obtenerProductoPorId} from "../services/productoService"
+import Swal from 'sweetalert2'
 import {useHistory} from 'react-router-dom'
-import Swal from "sweetalert2";
 
-export default function FormProducto() {
+export default function FormEditProducto({id}) {
   const [value, setValue] = useState({
     nombre:"",
     descripcion:"",
     precio:0,
     stock:0,
   })
-
+  //instanciando useHistory
   let history = useHistory()
+
 
   const actualizarInput = (e) => {
     setValue({
       ...value,
+
       [e.target.name]: e.target.value
     })
   }
 
+  const getProductById = async () => {
+    let response = await obtenerProductoPorId(id)
+    let {nombre, descripcion, precio, stock} = response
+
+    setValue({
+      nombre,
+      descripcion,
+      precio,
+      stock
+    })
+  }
+
+  useEffect(() => {
+    getProductById()
+  },[])
+
   const manejarSubmit = async (e) => {
     e.preventDefault()
-
-    let response = await crearProducto({...value})
+    let response = await editarProducto({...value}, id)
 
     Swal.fire({
       icon: "success",
-      title: "Producto creado",
+      title: "Producto Editado!!!",
       showConfirmButton:false,
       timer:2000
+      //esta promesa se ejecuta despues que la alerta desaperece o el usuario interactua con ella
     }).then(() => {
+      //.push(URL) es el método que me redirecciona hacia otra ruta
       history.push('/dashboard')
     })
   }
@@ -44,7 +63,7 @@ export default function FormProducto() {
           </label>
           <input 
             type="text" 
-            placeholder="Ej. Vitaminas A"
+            placeholder="Ej. Chocolates"
             name="nombre"
             className="form-control"
             value={value.nombre}
@@ -57,7 +76,7 @@ export default function FormProducto() {
           </label>
           <input 
             type="text" 
-            placeholder="Ej. Nutrientes como vitamina C"
+            placeholder="Ej. Chocolates bañados en crema"
             name="descripcion"
             className="form-control"
             value={value.descripcion}
@@ -90,9 +109,8 @@ export default function FormProducto() {
             onChange={(e) => {actualizarInput(e)}}
           />
         </div>
-
         <button className="btn btn-primary" type="submit">
-          Crear Producto
+          Editar Producto
         </button>
       </form>
     </div>

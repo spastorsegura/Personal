@@ -6,10 +6,17 @@ const registroFire = (email,password) => {
 }
 
 //ingresar
-
+const loginFire = (email, password) => {
+    return fire.auth().signInWithEmailAndPassword(email, password)
+  }
+  
 //salir - logout
-
-
-export{
-    registroFire
-}
+  const logoutFire = () => {
+    return fire.auth().signOut()
+  }
+  
+  export {
+    registroFire,
+    loginFire,
+    logoutFire
+  }

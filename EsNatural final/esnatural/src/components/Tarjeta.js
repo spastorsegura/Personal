@@ -5,7 +5,7 @@ import "./css/estilos.css"
 
 export default function Tarjeta({producto}) {
     return (
-        <div className="col-sm-12 col-lg-6 col-xl-3 m-2">
+        <div className="col-sm-12 col-lg-6 col-xl-2 m-2">
             <div className="card">
                 <img src={producto.imagen} alt={producto.nombre}/>
                 <div className="card-body d-grid justify-content-center">
