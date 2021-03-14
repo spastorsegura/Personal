@@ -1,4 +1,5 @@
 import logo from './img/logo.png'
+import logocirculo from './img/logocirculo.png'
 import granjero from './img/granjero.png'
 import delivery from './img/delivery.svg'
 import image1 from './img/image1.png'
@@ -9,6 +10,7 @@ import wsp from './img/wsp.svg'
 
 export default{
     "logo": logo,
+    "logocirculo": logocirculo,
     "logonegativo": logonegativo,
     "granjero": granjero,
     "delivery":delivery,

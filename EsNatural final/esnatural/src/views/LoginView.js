@@ -3,12 +3,13 @@ import {loginFire} from "../services/authFireService"
 import {AuthFireContext} from '../context/authFireContext'
 import Swal from 'sweetalert2'
 import {useHistory} from 'react-router-dom'
+import Header from '../components/Header'
 
 export default function LoginView() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const {userId, setAuthUserId} = useContext(AuthFireContext) //de esta manera utilizo el contexto dentro de mi componente
+  const {userId, setAuthUserId} = useContext(AuthFireContext)
   
   let history = useHistory()
 
@@ -17,14 +18,14 @@ export default function LoginView() {
     loginFire(email, password)
     .then(rpta => {
       console.log(rpta)
-      setAuthUserId(rpta.user.uid) //con esto cambiamos el estado userId del context
-      Swal.fire({ //con esta parte mostramos la alertita que diga usuario logueado
+      setAuthUserId(rpta.user.uid)
+      Swal.fire({ 
         icon:'success',
-        title:'Login Exitoso!!!',
+        title:'Login exitoso!',
         timer:2000,
         showConfirmButton:false
       })
-      .then(()=>{//después que se muestra mi alerta, redirijo al usuario hacia /dashboard
+      .then(()=>{
         history.push('/dashboard')
       })
     })
@@ -32,13 +33,14 @@ export default function LoginView() {
   }
 
   return (
-   <div>
-      <h1 className="display-4">Loguearse</h1>
+   <div className="col-md">
+     <Header/>
+      <h1 className="display-4" style={{marginTop:'15rem'}} >Login</h1>
       <form onSubmit={(e) => {login(e)}}>
         <div>
           <label className="form-label">Correo</label>
           <input 
-            className="form-control" 
+            className="form-control mb-2" 
             type="email" 
             placeholder="jperez@tecsup.edu.pe"
             value={email}
@@ -48,7 +50,7 @@ export default function LoginView() {
         <div>
           <label className="form-label">Contraseña</label>
           <input 
-            className="form-control" 
+            className="form-control mb-2" 
             type="password" 
             placeholder="Ingrese una contraseña segura"
             value={password}
@@ -59,6 +61,7 @@ export default function LoginView() {
           Ingresar
         </button>
       </form>
+
     </div>
   )
 }

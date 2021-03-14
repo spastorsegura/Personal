@@ -10,12 +10,15 @@ import Routes from './routes'
 
 export default function App() {
   return (
+
     <Router>
+      <AuthContextProvider>
       <div className="container">
         <Switch>
           <Routes/>
         </Switch>
       </div>
+      </AuthContextProvider>
     </Router>
   )
 }

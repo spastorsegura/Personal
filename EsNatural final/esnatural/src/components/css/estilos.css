@@ -71,6 +71,12 @@
       color: var(--verde);
       font-weight: 300;
     }
+
+    i{
+      font-size: 1rem;
+      width: 2rem;
+      height: 0.3rem;
+    }
     
     .btn {
       background-color: var(--naranja);
@@ -205,19 +211,11 @@
       display: flex;
       justify-content: center;
     }
-    /* .card img{
-      width: 40%;
-    } */
     
     .card button{
     border:0;
     }
     
-    /* .card a{
-      text-decoration: none;
-      color: var(--naranja);
-      font-weight: 500;
-    } */
     
     .delivery{
       background-color: var(--blanco);
@@ -227,7 +225,7 @@
       background-position: 0 0;
       background-size: cover;
     }
-    
+
     
     small{
       color: var(--blanco);
@@ -236,4 +234,3 @@
     .tarjetas{
       margin-top: 15rem;
     }
-    /* Sesión */
