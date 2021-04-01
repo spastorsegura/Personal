@@ -23,6 +23,10 @@ main p{
     font-size: 1.3rem;
 }
 
+main img{
+
+}
+
 .logo{
     background-image: url(./Assets/logoValores.svg);
     width: 200px;
