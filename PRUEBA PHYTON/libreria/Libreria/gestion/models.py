@@ -118,13 +118,15 @@ class DetalleModel(models.Model):
         related_name='productoDetalles',
         db_column='producto_id'
     )
+
     cabecera=models.ForeignKey(
         to=CabeceraModel,
         on_delete=models.CASCADE,
         related_name='cabeceraDetalles',
-        db_column='cabecera_id'
+        db_column='cabecera_id',
+        verbose_name='cabecera'
     )
 
     class Meta:
-        db_table='cabecera'
-        verbose_name='cabecera'
+        db_table='detalle'
+        verbose_name='detalle'
