@@ -1,0 +1,7 @@
+{
+  "name": "crud-express",
+  "version": "1.0.0",
+  "description": "Crud en express usando un array",
+  "main": "index.js",
+  "license": "MIT"
+}
