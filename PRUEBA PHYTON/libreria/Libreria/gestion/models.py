@@ -15,6 +15,11 @@ class CategoriaModel(models.Model):
         verbose_name='nombre',
         help_text='Nombre de la categoria'
     )
+
+    #método mágico
+    def __str__(self):
+        return self.categoriaNombre
+
     class Meta:
         db_table='categorias'
         verbose_name='categoria'
@@ -28,10 +33,10 @@ class ProductoModel(models.Model):
         db_column='id'
     )
     productoNombre=models.CharField(
-        null=False,
         db_column='nombre',
         help_text='Nombre del producto',
-        max_length=45
+        max_length=45,
+        verbose_name='nombre'
     )
     productoPrecio=models.DecimalField(
         max_digits=4,
@@ -61,6 +66,9 @@ class ProductoModel(models.Model):
         verbose_name='categoria',
         help_text='categoria del producto'
     )
+    #método mágico
+    def __str__(self):
+        return "{} de {} unidad(es)".format(self.productoNombre,self.productoCantidad) 
 
     class Meta:
         db_table='productos'
