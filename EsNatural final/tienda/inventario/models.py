@@ -68,6 +68,7 @@ class ProductoModel(models.Model):
         null=False,
     )
 
+#RELACIONES
     almacenId = models.ForeignKey(
         to=AlmacenModel,
         on_delete=models.PROTECT,
