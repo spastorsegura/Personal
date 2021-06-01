@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://601f26e9b5a0e9001706a325.mockapi.io/productos";
+const URL = "http://127.0.0.1:8000";
 
 const obtenerProductos = async () => {
   try {
@@ -10,6 +10,7 @@ const obtenerProductos = async () => {
     return error;
   }
 };
+
 
 const obtenerProductoPorId = async (id) => {
   try {

@@ -67,6 +67,7 @@ class ProductoModel(models.Model):
         db_column="precio",
         null=False,
     )
+   
 
 #RELACIONES
     almacenId = models.ForeignKey(
