@@ -1,0 +1,1005 @@
+<style>
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    
+    .accordion:after {
+      content: '+';
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+    
+    .active:after {
+      content: "-";
+    }
+    
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    </style>
+    
+    <h2>Lista de mesas</h2>
+    <p>Las ponencias que se presentarán en el congreso se agruparán en mesas centrales y temáticas. Estas últimas están agrupadas en cuatro bloques: Independencia, República, Nudos de la república y República diversa.</p>
+    <h3>MESAS CENTRALES</h3>
+     
+    <button class="accordion">Mesa A: Repensar la república en una nueva era (inauguración)</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Alberto Vergara (UP)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>Danilo Martucelli (Universidad de Paris Descartes, Francia)</li>
+               <li>Zaraí Toledo (Universidad de la Columbia Británica, Canadá)</li>
+               <li>Alberto Vergara (UP)</li>
+               <li>Carmen McEvoy (University of the South – Sewanee, EEUU)</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa B: Epidemias y salud pública en perspectiva histórica</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Jorge Lossio (PUCP)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>Marcos Cueto (Casa de Oswaldo Cruz, Brasil)</li>
+               <li>Raul Necochea (University of North Carolina at Chapel Hill, EEUU)</li>
+               <li>Juan Pablo Murillo (UNMSM)</li>
+               <li>Carmen Yon (PUCP/UPCH)</li>
+           </ul>
+       </p>
+    </div>
+    
+    
+    <button class="accordion">Mesa C: Los desafíos de la democracia peruana: una mirada interdisciplinaria</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Iván Lanegra (Transparencia)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>José Francisco Gálvez (IRA). La participación ciudadana como herramienta para la construcción de la democracia peruana </li>
+               <li>Sinesio López (PUCP). Ciudadanos reales e imaginarios.</li>
+               <li>Alicia del Águila (PUCP). Los clivajes étnico y territorial de nuestra democracia.</li>
+               <li>Milagros Suito (Jurado Nacional de Elecciones) La historia del sistema electoral.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa D: Economía y desarrollo: una visión de largo plazo</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+         <p>Carlos Contreras (PUCP)</p>
+        
+         <h4>Ponencias </h4>
+         <p>
+             <ul>
+                <li>Germán Alarco (UP) </li>
+                <li>Richard Webb (Instituto Perú de la UPSMP)</li>
+                <li>Catalina Vizcarra (Universidad de Vermont, EEUU)</li>
+            </ul>
+        </p>
+    </div>
+    
+    <button class="accordion">Mesa E: Los rostros de la violencia</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>María Eugenia Ulfe (PUCP)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>Carolina Garay (Universidad de Bonn). Niños y niñas desaparecidos durante el conflicto armado: separación y reencuentro familiar.</li>
+               <li>Camila Sastre (PUCP). Violencias encarnadas: los casos mujeres sobrevivientes de violaciones sexuales de Manta (Perú) durante el conflicto armado interno.</li>
+               <li>Dynnik Asencios (UNMSM). Las cárceles y su resurgimiento político: exploraciones al espacio carcelario y sus actores en Lima (1980-1985).</li>
+               <li>Mercedes Figueroa (Freie Universität Berlin). Imágenes y memorias familiares de policías y militares fallecidos durante el conflicto armado interno en el Perú.</li>
+           </ul>
+       </p>
+    </div>
+    
+    
+    <button class="accordion">F: La independencia del Perú</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Natalia Sobrevilla (University of Kent – Reino Unido)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>Heraclio Bonilla</li>
+               <li>Margarita Guerra</li>
+               <li>Gustavo Montoya</li>
+               <li>Natalia Sobrevilla</li>
+               <li>Víctor Peralta</li>
+               <li>Claudia Rosas</li>
+           </ul>
+       </p>
+    </div>
+    
+    
+    <button class="accordion">G: Reconstrucciones nacionales: legados y aprendizajes (clausura)</button>
+    <div class="panel">
+        <h4>Coordinadores</h4>
+        <p>Carmen McEvoy (The University of the South – Sewanee – EEUU) / Martín Monsalve (UP)</p>
+       
+        <h4>Ponencias </h4>
+        <p>
+            <ul>
+               <li>Oscar Ugarteche</li>
+               <li>Cristina Mazzeo</li>
+               <li>Martín Monsalve</li>
+               <li>Alejandro Salinas</li>
+               <li>Carmen McEvoy</li>
+               <li>Nils Jacobsen</li>
+           </ul>
+       </p>
+    </div>
+    
+    
+    
+    <!-- INDEPENDENCIA -->
+    <h2>Mesas temáticas</h2>
+    <h3>BLOQUE INDEPENDENCIA</h3>
+    <button class="accordion">Mesa 1: España y la independencia</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Ascensión Martínez-Riaza (Universidad Complutense de Madrid – España)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Milagros Martínez-Flener (Universidad de Viena – Austria). Brasil y la independencia hispanoamericana.</li>
+               <li>Francis Chávez. El reconocimiento de la independencia del Perú por España.</li>
+               <li>Dionisio de Haro (Universidad Rey Juan Carlos). El último virrey en la encrucijada: Guerra de la Independencia y liberalismo. Un programa económico para ganar la guerra.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 2A: Independencia y regiones: costa</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Margareth Najarro (UNSAAC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Ruth Rosas. Impacto de la independencia del partido de Piura en la vida religiosa de sus feligreses.</li>
+               <li>Christian Rodríguez. “Anales de la Provincia de Lima (1816-1824)": Un raro manuscrito que muestra la visión de un ilustrado limeño sobre el proceso de independencia dentro de un libro contable.</li>
+               <li>Martha Eloísa Chávez (UNFV). Participación de los pueblos del Valle de Nepeña en el Proceso de la Independencia del Perú Región Ancash, 1819-1824.</li>
+               <li>Luis Alberto Rosado (PUCP). La periferia norte de la capital en la independencia: el papel de los hacendados de ganado</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 2B: Independencia y regiones: sierra central</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Margareth Najarro (UNSAAC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Pío Mendoza (Dirección Regional de Educación de Pasco). Escenarios en disputa en la sierra central entre 1820 – 1824.</li>
+               <li>Núria Sala i Vila (Universitat de Girona). Los ritmos regionales de la Independencia en el centro-sur andino. </li>
+               <li>Gonzalo Zavala (UNMSM).  La rebelión de Huánuco en 1812. Aproximaciones a las respuestas sociales durante la independencia peruana.</li>
+               <li>Eliseo Talancha. El coronel Eduardo Lúcar y Torre. Biografía política de un actor regional de Huánuco entre el virreinato y la temprana república.</li>
+               <li>Hélard Fuentes (UNSA). Apresados, ejecutados y desterrados: la historia de una conspiración para independizar al Perú en 1805.</li>
+           </ul>
+       </p>
+    </div>
+    <button class="accordion">Mesa 2C: Independencia y regiones: sur andino</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Margareth Najarro (UNSAAC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Jaime Urrutia (IEP). Regiones e Independencia: dicotomías étnicas y contrastes en la acción colectiva en Ayacucho</li>
+               <li>Nolberto Rojas (UNSCH). La elite de Huamanga durante el proceso de Independencia en Huamanga, 1810-1824.</li>
+               <li>Fernando Calderón (Colmex). El Cabildo Abierto en Arequipa durante el proceso independentista.</li>
+               <li>Helbert Suyo (PUCP). Consideraciones acerca del proceso de independencia en el virreinato peruano: el caso de la intendencia de Arequipa (1809-1825).</li>
+               <li>Ben Yábar (UNJBG). El partido de Arica durante el período emancipador.</li>
+           </ul>
+       </p>
+    </div>
+    <button class="accordion">Mesa 3A: Independencia y economía</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Martín Monsalve (UP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Félix Rodríguez (UNMSM). Costo de vida, políticas municipales, y el abastecimiento de víveres esenciales en Lima en vísperas de la Independencia.</li>
+               <li>Jesús Yarango (UNMSM) Financiamiento extraordinario en una época de contrarrevolución: donativos y préstamos de la elite limeña en el gobierno de Abascal, 1806-1816.</li>
+               <li>Cristina Mazzeo (PUCP). El costo de la expedición libertadora al Perú a través de la memoria de Gerónimo Espejo 1817 – 1821.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 3B: Independencia y economía</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Martín Monsalve (UP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Carlos Ernesto Morales (UNMSM). Etapa final de la Casa de Moneda en el virreinato del Perú. La producción monetaria en el proceso de la independencia: Perú colonial. 1815-1825.</li>
+               <li>Augusto Ruiz Zevallos (UNFV). Dos siglos de estancamiento. Estatura y Nivel de vida de la población peruana.</li>
+               <li>Carlos Contreras (PUCP). La transición de una economía colonial a una economía independiente y la necesidad de un equilibrio que antes no existió.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 4: Guerra y guerrillas en la independencia</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Gustavo Montoya (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Silvia Escanilla (University of Illinois). El rol de las milicias indígenas en el proceso de independencia del Perú.</li>
+               <li>Néstor Pilco (UNAP) Participación popular de Puno durante la independencia (1809 – 1825).</li>
+               <li>Sisko Rendón. Qorilazos en la independencia del Perú.</li>
+               <li>Víctor Espinal y Óscar Barrios (UNMSM). Una cierta desmovilización de los medios para hacer la guerra de Independencia. Huarochirí, 1824-1825.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 5A: Proyectos políticos e instituciones en conflicto</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Elizabeth Hernández (UDEP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Marcela Ternavasio (Universidad Nacional de Rosario-CONICET). Las crisis ibéricas y sus derroteros constitucionales y representativos (1808-1824).</li>
+               <li>Tomás Pérez Vejo (Instituto Nacional de Antropología e Historia - México). La monarquía como alternativa política: el caso de México</li>
+               <li>Cristina Mazzeo (PUCP). Francisco Javier Mariátegui, liberal, republicano y constitucionalista 1793 – 1884.</li>
+               <li>Raúl Chanamé. La República Coronada.</li>
+               <li>Beatriz Bragoni (Universidad Nacional de Cuyo). El Constitucional Español y la independencia sudamericana en la encrucijada del orden legitimista, 1818-1820</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 5B: Proyectos políticos e instituciones en conflicto (la obra de Cortegana)</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Elizabeth Hernández (UDEP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Elizabeth Hernández (UDEP). Un proyecto político frustrado: José de la Riva Agüero, la independencia peruana y la monarquía en el Perú independiente.</li>
+               <li>Francisco Quiroz (UNMSM). La independencia insatisfactoria, según Cortegana.</li>
+               <li>Ricardo Sánchez. Los incas y la caída del imperio en la “Historia del Perú” de J. B. Cortegana.</li>
+               <li>Juan Antonio Lan (FLACSO). Formas de historicidad en el manuscrito “Historia del Perú” de Juan Basilio Cortegana.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 6: América: de la independencia a las Repúblicas</button>
+    <div class="panel">
+        <h4>Coordinadores</h4>
+        <p>Víctor Peralta (Consejo Superior de Investigaciones Científicas – España) / Claudia Rosas (PUCP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Manuel Chust (Universitat Jaume I de Castellón, España). Y en eso llegó Riego y mandó no embarcar...Insurgencia y liberalismo en América, 1820-1826.</li>
+               <li>Hilda Sábato (CONICET, Argentina). Los desafíos de la república en Hispanoamérica.</li>
+               <li>Karina Clissa (Universidad Católica de Córdoba-Argentina). Del púlpito a la tribuna. Encrucijada entre política y retórica sacra en la construcción de la Patria.</li>
+               <li>Josep Escrig (Universidad Nacional Autónoma de México). Visiones de la independencia peruana desde México: encuentros y divergencias.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <!-- REPUBLICA  -->
+    
+    <h3>BLOQUE REPÚBLICA (siglos XIX-XXI)</h3>
+    
+    <button class="accordion">Mesa 7: Nación y narrativas sobre la independencia</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Carmen McEvoy (The University of the South – Sewanee – EEUU)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Anaïs Vidal-Jaumary (IHEAL). De 1821 a 2021: las narraciones de la independencia del Perú</li>
+               <li>Marisa Bazán (UL).  Los primeros discursos acerca de la independencia del Perú (1820-1824): Tempranas representaciones acerca de un debate Bicentenario.</li>
+               <li>Ernesto Morales (UNMSM). Historiografía de la contrarrevolución en el proceso de independencia sudamericano.</li>
+               <li>Hipólito Mata (UNMSM). La educación a los indígenas en el centenario de la independencia del Perú: ideologías, visiones y repercusiones.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 8A: Archivos</button>
+    <div class="panel">
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Omar Rojas (Instituto Pedagógico Nacional de Monterrico). La Nación en el papel. Notas sobre los documentos de archivo en la gestación del Estado en la naciente República peruana 1822-1826.</li>
+               <li>Nelly Cárdenas (UNT). Protección del patrimonio documental en el Archivo Regional de La Libertad.</li>
+               <li>John Elton Delgado (BNP). Apuntes para la historia de la Biblioteca Nacional a través del ex libris.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 8B: Memoria e historia</button>
+    <div class="panel"> 
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Gisela Hurtado (PUCP). Archivos y artefactos de memoria: la materialidad en los testimonios de violencia del LUM</li>
+               <li>Giovanni Pizardi (University of Pittsburgh). El rol del formato de bildungsroman en la construcción de las memorias de Lurgio Gavilán.</li>
+               <li>José Simón Cumpa (UNMSM). Narrativas del no-ser: Muerte y otredad en el conflicto armado interno.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 9: Patrimonio cultural</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Adriana Scaletti (PUCP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Santiago Loayza (UNSAAC). La monumentalidad en el País de los Incas: un recorrido por las políticas de gestión sobre el patrimonio cultural en Cusco (1980-1990)</li>
+               <li>Adriana Arista (University of Nottingham – Reino Unido). De tesoros a nuestros tesoros: la legislación de patrimonio cultural, doscientos años de la búsqueda de la construcción de la “peruanidad”.</li>
+               <li>Nancy Mamani (UNSA). De Ejercicios a Álvarez Thomas. La calle Álvarez Thomas y su importancia como parte del patrimonio inmueble de Arequipa. </li>
+               <li>Soto, Marco Antonio (UDEP). Revalorización del Patrimonio industrial en el norte del Perú: Caso del Puerto de Eten.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 10A: Secularización, Iglesia y Estado: Independencia</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Fernando Armas Asín (UP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>José Antonio de Benito (Facultad de Teología Pontificia y Civil). La retractación del Deán Valdivia como punto de quiebre en la vida de un clérigo revolucionario, ilustrado y comprometido.</li>
+               <li>Johan Almeida (UNFV). ""El dean de la patria". La participación de Francisco Xavier de Echague y el Cabildo eclesiástico de Lima durante el Protectorado 1821-1822.</li>
+               <li>Bruno Van der Maat (UCSM). Las ordenaciones sacerdotales en el Perú alrededor de la independencia: 1820-1827.</li>
+               <li>Juan C. Huaraj Acuña / Fr. Elthon Pacheco Valencia OdM (UNMSM). La Orden de la Merced en 1821 y la jura de la independencia del Perú.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 10B: Secularización, Iglesia y Estado: Independencia y República</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Fernando Armas Asín (UP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Sara González Castrejón (Universidad Castilla La Mancha) y Raúl Antonio Chau (Obispo auxiliar de Arequipa). Apuntes sobre la participación del clero rural en el proceso de independencia del Perú: tres casos inéditos de la sierra de Lima: Naván y Andajes (provincia Oyón) y Mangas (provincia Bolognesi).</li>
+               <li>Raiza Arlena Honorio Pantoja (Universidad Nacional Mayor de San Marcos). Las doctrinas eclesiásticas frente al proceso de independencia: Huarochirí y Yauyos (1808-1825).</li>
+               <li>Rolando Iberico (PUCP – Universidad Católica de Lovaina – Bélgica). Entre la fe y la república: proyectos católicos para el Perú (XIX-XX).</li>
+               <li>Juan Ramírez (URP-UNMSM). Iglesia y Estado durante la segunda mitad del siglo XX. Análisis y perspectivas.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 11: Ciencia y tecnología</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>José Ragas (Pontificia Universidad Católica de Chile)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Renzo Caycay (UNPRG) Historia de la sociología en Lambayeque 1920-2020. Orientaciones fundamentales de una ciencia.</li>
+               <li>Renzo Loza (UNMSM). El Observatorio meteorológico de la Facultad de Ciencias: (1868-1930): desarrollo y enseñanza de la meteorología en la Universidad Mayor de San Marcos.</li>
+               <li>David Villanueva (UNMSM). El Legado científico y tecnológico de Paulet para el Bicentenario.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 12: Migraciones internas y externas</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Tania Vásquez (IEP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Gonzalo Paroy (UNMSM). En busca de nuevos esclavos. La inmigración y proyecto inmigratorio del Perú en el siglo XIX.</li>
+               <li>José Manuel Carrasco Weston (UP). Empresarios inmigrantes en el Perú durante la primera globalización (1870-1914):  Caso de John y Ernesto Thorndike.</li>
+               <li>Marco Lovón (UNMSM). Migración venezolana en el Perú: Discursos en la configuración de la identidad peruana.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 13: Pensamiento político</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Tania Vásquez (IEP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Luis Alberto Arista (USMP). La dimensión filosófica del pensamiento republicano de Toribio Rodríguez de Mendoza</li>
+               <li>Necker Salazar (UNFV). La idea de nación y el sentido patriótico en el pensamiento de Manuel González Prada y Abraham Valdelomar.</li>
+               <li>Mario Granda Rangel (UARM). De las armas a las ideas: Manuel González Prada y la Independencia del Perú.</li>
+               <li>Mónica Cadenas (Universidad Andina Simón Bolívar). El Nacionalismo Continentalista o Americanismo De La Red Intelectual Judíomariateguina (1925-1930).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 14: Debates y proyectos políticos</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Tania Vásquez (IEP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Gonzalo Oyola (UNMSM). La Constitución de 1828: El caudillismo frente al federalismo.</li>
+               <li>Matías Sánchez Barberán (EHESS-CERMA). Unión y Federación: de la utopía al proyecto político. Perú, años 1860.</li>
+               <li>Raúl Kuroki (UNMSM). Domingo Elías y la Guardia Nacional de Ica. Redes de parentesco, poder local y ejercicio de coerción en el siglo XIX.</li>
+               <li>Diego Adrián Reinoso Flores (UCSP). “Entre campanadas y algazaras”. La revolución de Arequipa de 1867.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 15: La Guerra del Pacífico</button>
+    <div class="panel">
+        <h4>Coordinadores</h4>
+        <p>Carmen McEvoy (The University of the South – Sewanee - EEUU / Gabriel Cid (Universidad San Sebastián, Chile)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Gabriel Cid (Universidad San Sebastián, Chile) Ritualizando la lealtad a la nación: las juras a la bandera y la memoria de la Guerra del Pacífico en Chile y Perú a inicios del siglo XX</li>
+               <li>Patricio Ibarra (Universidad Bernardo O’Higgins) ‘Su enseña es la enseña de la Patria’: El Boletín de la Guerra del Ejército del Perú (Arica – Tacna, Diciembre 1879 – Mayo 1880)” </li>
+               <li>Iván Millones (PUCP) “Política y patriotismo. Caudillos y partidos en la posguerra con Chile”</li>
+               <li>Juan José Rodríguez Díaz (UNMSM). “Entre dos patrias: Las colonias extranjeras durante la Guerra del Pacífico”.</li>
+               <li>Carmen McEvoy (University of the South-Sewanee). Comandos fronterizos: un modelo de interpretación transbélico”</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 16: El espacio peruano. Exploraciones, cartografía y organización territorial</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Elizabeth Montañez-Sanabria (Austrian Academy of Sciences)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Roberto Chauca (FLACSO). La “reutilización” de la cartografía franciscana en los primeros mapas amazónicos del Perú republicano, 1830-1850. </li>
+               <li>Carla Lois (CONICET-Universidad de Buenos Aires). De las fronteras coloniales del imperio hispánico en América a los límites internacionales entre Estados latinoamericanos independientes.</li>
+               <li>Jorge Bayona (University of Washington, Seattle) De la pérdida de Tarapacá a las de los territorios amazónicos: una reexaminación del geocuerpo peruano como imaginario.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 20A: Historia de la educación</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Álex Loayza (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Margarita Guerra Martiniere (Academia Nacional de Historia-IRA). La educación y sus problemas (1900-1920).</li>
+               <li>Juan Chileno (IE José Olaya Balandra). La misión belga en la educación peruana (1903-1910).</li>
+               <li>Plinio Guillén. IEE. n° 20523 Corazón de Jesús – Supe Pueblo: más de un siglo de acceso a la educación pública en el ámbito local.</li>
+               <li>Gregory Bardales. Las Reformas Educativas vistas en 3D: Descartar, Desacreditar y Desintegrar al magisterio peruano (1968-2021).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 20B: Historia de la educación</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Álex Loayza (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Marcos Garfias (IEP). Desarrollismo y autonomía universitaria en el Perú, 1960 – 1972.</li>
+               <li>Jenny Canales (UARM). El docente en la educación superior: camino del bicentenario.</li>
+               <li>Alcides Sánchez (UNMSM). Conquistando la capital: la instrucción universitaria y los provincianos en Lima (1900-1930)</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 21: Deporte y sociedad</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Gerardo Álvarez (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Alonso Pahuacho (PUCP). A ras de cancha y de la lona: intercambios deportivos de amistad peruano-chilena a finales del Oncenio de Leguía (1926-1930).</li>
+               <li>Gerardo Alvarez (UNMSM). La donación del Estadio Nacional: ideas y discursos en torno a una infraestructura deportiva bajo el contexto del centenario de la independencia. Lima, 1923.</li>
+               <li>Axel Sánchez (UNFV).  Identidad limeña popular del Club Alianza Lima. Lima, 1927-1938.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 22: Vida cotidiana</button>
+    <div class="panel">
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Susy Sánchez (University of Notre Dame - EEUU). Lima es un sepulcro: La muerte sufrida en 1821.</li>
+               <li>Marco de la Torre (UNFV). La nueva élite, la banca y la agricultura en tiempos improductivos. El Perú antes de la guerra con Chile, 1850 – 1879.</li>
+               <li>José Chaupis (UNMSM). La vida cotidiana a través de la justicia: los pleitos por injurias durante la ocupación chilena de Lima.</li>
+               <li>Rubén Quispe (UNMSM). Espacios de lucha y lucha por espacios. Informalidad en el distrito de Magdalena del Mar, Lima, 1970-2000.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 23A: Prensa y literatura: siglo XIX</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Víctor Arrambide (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Alejandro Málaga (UNSA). 1825 el inicio de la prensa republicana en Arequipa.</li>
+               <li>Giancarlo Stagnaro (UTP/UNMSM). Lo que la Confederación nos dejó: las novelas de folletín "Lima de aquí a cien años", de Julián M. del Portillo; "Cusco de aquí a cien años", de autor anónimo; "Gonzalo Pizarro", de Manuel Ascensio Segura; y "El padre Horán", de Narciso Aréstegui. Una propuesta transversal de lectura</li>
+               <li>Víctor Arrambide (UNMSM). La voz del Estado o la voz del gobierno: periódicos oficiales y la construcción de la República, siglo XIX.</li>
+               <li>Marcel Velázquez Castro (UNMSM). La república de papel: cuatro modelos en el Perú del largo siglo XIX.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 23B: Prensa y literatura: siglo XX</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Víctor Arrambide (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Janeth Dávila (UNMSM). Modernizar las fiestas: discursos y representaciones en la prensa para la reforma del carnaval limeño (1920-1930).</li>
+               <li>Elliott Calderón (UNMSM). Entre la marginalidad y el techo propio. Construcción de la imagen del migrante y las barriadas a través de la prensa escrita en Lima, 1960-1968.</li>
+               <li>Manuel Barrós (PUCP). La dirección del agua. César Vallejo en «Chaski» (Cusco, 1972-1974).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 24A: Política, militares y pensadores </button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Mauricio Novoa (UPC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Christian Rodríguez (Ejército del Perú). La Fortaleza de San Felipe del Callao y su participación en el proceso separatista hispanoamericano (1800-1826).</li>
+               <li>Mauricio Novoa (UPC). Historia de un regimiento republicado: Los Húsares de Junín.</li>
+               <li>Lourdes Medina (UNMSM). El uniforme militar del siglo XIX o la experiencia de una industrialización textil en el Perú.</li>
+               <li>Alexander Domínguez (Ejército del Perú). De sargento patriota a coronel de los ejércitos del rey: El paradigmático caso del negro Dámaso Moyano.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 24B: Política, militares y pensadores</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Mauricio Novoa (UPC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Jorge Ortiz (AGN). La estrategia naval realista, 1810-1824.</li>
+               <li>Juan Carlos Llosa (Marina de Guerra del Perú). El nacimiento de la armada indpendiente.</li>
+               <li>Michel Laguerre (Marina de Guerra del Perú). El poder naval en la independencia del Perú. Concepción y estrategia.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 24C: Política, militares y pensadores</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Mauricio Novoa (UPC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Julio Abanto Chani (UNMSM). Visibilizando a un actor político y militar de la Guerra del Pacífico: El papel de Manuel Velarde en los gobiernos de Francisco García Calderón y Lizardo Montero (1881-1883).</li>
+               <li>José Ignacio Peña (IRA). Mariano Ignacio Prado y el combate del 2 de mayo de 1866, la consolidación de la independencia.</li>
+               <li>Alberto Castro Villa. Las misiones militares francesas y su repercusión en la sociedad peruana 1896-1942.</li>
+               <li>Estelle Amilien (Universidad de Paris – Nanterre - Francia) El conflicto de Leticia: la otra cara.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 24D: Política, militares y pensadores</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Mauricio Novoa (UPC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Elena Botton (UNMSM). Violencia política y discurso conspirativo y anticomunista durante el Oncenio de Leguía.</li>
+               <li>Ricardo Gavilán (UNMSM). Fundamentos históricos de la policía peruana, 1922-1929. Reforma policial, profesionalización y apuntes a la tradición autoritaria.</li>
+               <li>Emilio Candela (IRA). La herencia populista del régimen de Óscar R. Benavides (1933-1939)</li>
+               <li>Norberto Barreto. Retando al Imperio: la compra de los Mirage y la Guerra Fría.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 25A: Arte, sociedad y política</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Sofía Pachas (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Marty Ames (UNMSM). Las celebraciones por el centenario de la independencia del Perú: monumento a José de San Martín (27 julio 1921).</li>
+               <li>Andrea del Pilar Bustamante (UNMSM). Memoria, conmemoraciones y representaciones de la Nación: La paradójica Capilla de Francisco Pizarro erigida durante el gobierno del centenario de la independencia.</li>
+               <li>David Rengifo (UNMSM).  El teatro histórico y la construcción de la Nación. Lima: 1848-1924.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 25B: Arte, sociedad y política</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Sofía Pachas (UNMSM)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Rosmeliz Alva (Universidad Bordeaux Montaigne - Francia). Ricardo Grau, la otra cara de la vanguardia.</li>
+               <li>Ana Karina Saldaña (UNMSM). El proceso independentista en la pintura de Juan Lepiani.</li>
+               <li>Carla Dameane Pereira de Sousa (Universidad Federal de Bahía - Brasil). Yuyachkani y el Bicentenario de la independencia del Perú: invocando a los ausentes de la historia oficial en Discurso de Promoción (2017).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 26: La ciudad en la historia republicana</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Adrián Lerner (Princeton University – EEUU)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Rossano Calvo (UNSAAC). En torno al imaginario y la representación de la ciudad del Cusco republicano.</li>
+               <li>Martín Fabbri (UNMSM). La ciudad republicana.</li>
+               <li>Jessica Esquivel. La nueva nación y la utopía de la modernización urbana: La transformación urbana en Lima con los ingresos del guano (1821-1876)</li>
+               <li>Leopoldo Prieto (UNAL). La construcción de un centro simbólico para la nación Lima, Quito y Bogotá en tiempos del Centenario.
+                Matteo Stiglich. Los orígenes de la avenida Arequipa.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 27: Población indígena y mundo rural</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Nelson Pereyra (UNSCH)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>David Quichua (UNSCH). Los iquichanos en la independencia y la naciente república.</li>
+               <li>Diana Ramos (UDEP). Estado republicano y los ciudadanos tributarios. Discurso, dilemas y estrategias de renegociación en el norte del Perú, 1821-1854.</li>
+               <li>Guido Chati (UNSCH). Presagios de guerra civil: violencia de Estado y la lógica de la violencia civil en los andes. (Andahuaylas durante el gobierno populista y militar, 1960 a 1979).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 28: Profesionales y creadores de la nación</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Lizardo Seiner (PUCP)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Eveling Sánchez. Hipólito Unanue: un nuevo paradigma.</li>
+               <li>Nashely Lizarme (UNMSM). Prevenir, curar y construir. Médicos e ingenieros en la salud pública en el Perú (1900- 1960).</li>
+               <li>Jesús Llerena (UNMSM). De cirujanos a médicos militares: relaciones entre científicos y oficiales de 1890 a 1920.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 29: Música, identidad y nacionalismo</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Eduardo Torres (UPC)</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Luis Gómez Acuña (PUCP). Sobre el término “criollo” en la Historia de la música peruana republicana.</li>
+               <li>Eduardo Torres Arancivia (UPC). De la tonadilla escénica al himno nacional del Perú.</li>
+               <li>César Humberto Vega (PUCP). Música eclesiástica en el tránsito del Virreinato a la República.</li>
+               <li>Zoila Vega Salvatierra (UNSA). Canciones tristes de nuestros padres: la vinculación criolla con el Ande a través del yaraví decimonónico en los albores de la Independencia.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 30: Salud y epidemias en la historia regional</button>
+    <div class="panel">
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>José María Vásquez Gonzales (UNSCH). Entre pandemia (2020) y epidemia (1856): Una comparación de las cuarentenas, prevenciones y salud pública en Ayacucho.</li>
+               <li>Henry Rojas (UNT). Las políticas de salubridad en la ciudad de Trujillo (1850 – 1900). Aspectos políticos, sociales y culturales.</li>
+               <li>Edison Quispe (UNSA). ¿200 años de una salud pública resquebrajada? La experiencia local de Arequipa frente a las crisis epidémicas, 1821-2021.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 31: Derecho e historia en el Perú</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Fernando Liendo</p>
+       
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Fernando Liendo. Desafíos a la historia del Derecho en el Perú a propósito del Bicentenario. Hacia una integración de perspectivas. </li>
+               <li>Damián Gonzales Escudero. (Instituto Max Planck de Historia y Teoría del Derecho). La imposibilidad del Derecho: normativa y litigación durante la confederación Peruano-Boliviana (1836-1839).</li>
+               <li>José Carlos Fernández Salas (PUCP). La autoridad del antes: vínculos entre los roles del jurista y del historiador.</li>
+               <li>Hans Enrique Cuadros Sánchez (UCS). De Indio a Campesino: la construcción de categorías jurídicas en contexto de cambio político e ideológico en el Perú Republicano hasta el último militarismo.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <!-- BLOQUE NUDOS DE LA REPÚBLICA  -->
+    <h3>BLOQUE NUDOS DE LA REPÚBLICA</h3>
+    
+    <button class="accordion">Mesa 17: Racismo</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Mariela Noles Cotito (UP)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Yasmani Esquivel (UNSAAC). Racismo epistémico en el Perú, la construcción de la república a partir de las epistemes otras.</li>
+               <li>Ana Lucía Mosquera (USMP). Cuerpos abyectos, a quien pertenece la república del Perú.</li>
+               <li>Juan Jhong Chung (Universidad de Michigan). Tusanes y Nikkeis: las identidades asiático peruanas y el racismo a través de la historia.</li>
+               <li>Alejandra Watanabe (Universidad de California-Santa Cruz). El racismo ambiental como discurso emancipatorio y decolonial.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 18A: Centralismo y regiones</button>
+    <div class="panel">
+        <h4>Coordinadores</h4>
+        <p>Susana Aldana (ESAN) y Nelson Pereyra (UNSCH)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Nelson Pereyra (UNSCH). Ejes mercantiles y memoria histórica: la región de Ayacucho en los siglos XIX y XX.</li>
+               <li>Donato Amado (UNSAAC). El proceso histórico del regionalismo cuzqueño.</li>
+               <li>Francisco San Martín. Trujillo: la ruta de la libertad en el desarrollo republicano.</li>
+               <li>Víctor Condori (USP). Arequipa a inicios de la República, 1825-1850.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 18B: Centralismo y regiones</button>
+    <div class="panel">
+        <h4>Coordinadores</h4>
+        <p>Susana Aldana (ESAN) y Nelson Pereyra (UNSCH)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Luis Mejía y Cecilia Albines (IEP ESCADE). Evolución espacio-temporal de la provincia de Paita.</li>
+               <li>Carlos Hurtado Ames (UNMSM). Región e historicidad desde la perspectiva de lo local. El caso de Jauja y el valle del Mantaro (sierra central del Perú).</li>
+               <li>Pavel Elías (UDEP). Los pueblos del partido de Piura en los años previos a la independencia: problemáticas y comportamientos.</li>
+               <li>Quirino Olivera Nuñez (Asociación para la Investigación Científica de la Amazonia de Perú). El discurso arqueológico sobre el valle del Marañón, alta Amazonia de Perú, Cajamarca.</li>
+               <li>René Calsin (IPEJAE) La tradición dancística puneña en el siglo XIX.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 19: Ilegalidades </button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Gabriel Arriarán (CERA Bartolomé de Las Casas)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Yohanna Ruffiner (Universidad de Lausana – Suiza). Ilegalidades". visiones etnohistóricas sobre la minería en Madre de Dios.</li>
+               <li>Víctor Hugo Pachas (Alianza por la Minería Responsable Perú – Bolivia). Aproximaciones a la cultura de la minería de pequeña escala de oro y su espectro ilegal.</li>
+               <li>Gabriel Arriarán (CERA Bartolomé de Las Casas). Espacios de frontera y excepción: minería ilegal y violencia de Estado en Madre de Dios.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <!-- REPUBLICA DIVERSA -->
+    <h3>BLOQUE REPÚBLICA DIVERSA</h3>
+    
+    <button class="accordion">Mesa 32A: Las mujeres y los campos de disputa/ batalla</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>María Emma Mannarelli (UNMSM)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Claudia Núñez (PUCP). Interpelaciones caudillistas: La Mariscala y las transgresiones queer del campo de batalla.</li>
+               <li>Ybeth Arias (UNMSM). ¿Quiénes fueron las beneficiadas de la Orden del Sol y la medalla Bolívar? 1822-1826.</li>
+               <li>Luz Ramos Dolorier (Universidade Federal de Juiz de Fora). Memoria y olvido: participación de Antonia Moreno durante la Campaña de la Breña. Andes centrales, 1881-1883.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 32B: Cuerpos de mujeres, agencias y controles patriarcales</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>María Emma Mannarelli (UNMSM)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Daniella Terreros Roldán (UNMSM). Relatos de una mujer moderna: la garçonne limeña y la moda transgresora en Lima, (1919-1930).</li>
+               <li>Claudia Hernández (PUCP). Belleza contra inteligencia: proyecto modernizador, cuerpos y feminismo en Lima durante la República Aristocrática.</li>
+               <li>Carlos Estela-Vilela (Universidad Bourdeaux-Montaigne). Entre anonimato e invisibilidad. Género e identidad de las amas de leche en las fotografías del estudio Courret.</li>
+               <li>Ilse de Ycaza (PUCP). “Evas de exportación”: la construcción de la imagen del Perú a través de certámenes de belleza, 1952-1982.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 32C: Mujeres y escritos republicanos</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>María Emma Mannarelli (UNMSM)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Isabelle Tauzin (Université Bourdeaux-Montaigne). Revisando el testimonio de Flora Tristan desde la lectura de sus escritos en francés y otros documentos inéditos del primer medio siglo XIX.</li>
+               <li>María Elena Arce (PUCP). Dora Mayer: una mirada reconciliadora a la colonia china en el Perú del centenario.</li>
+               <li>María Emma Mannarelli (UNMSM). Secularización y feminismo. María Jesús Alvarado (1913-1924).</li>
+               <li>Margarita Zegarra (USIL). Los primeros años de la asociación feminista Evolución Femenina.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 32D: Subversiones de la dicotomía polis/casa</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>María Emma Mannarelli (UNMSM)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Victoria Solís. Ciudadanía y voto: El derecho al sufragio de las mujeres y sus impactos transformadores en el Perú.</li>
+               <li>Laura Martínez (Proyecto Especial Bicentenario). La defensa del voto de Zoila Aurora Cáceres y el “Feminismo Peruano Z.A.C.”</li>
+               <li>Francisco Humberto Camacho (UNFV). Lealtad, respeto y firmeza. La participación de la militancia femenina en la Unión Revolucionaria (UR), 1931-1936.</li>
+               <li>Eva Bautista (Universidad Complutense de Madrid). Trabajo femenino y relaciones familiares en una sociedad patriarcal. Estudio de casos en el distrito de Comas (Lima, Perú).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 33: Diversidad religiosa, política y sociedad</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Juan Fonseca (UPC)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Juan Miguel Espinoza (PUCP). La teología de la liberación y la sociedad civil en el Perú contemporáneo.</li>
+               <li>Eduardo Romero (PUCP). La religión en los censos peruanos en los siglos XIX, XX, y XXI.</li>
+               <li>Carlos Ráez (UNMSM). Religión y política en el Frepap (1989-2021).</li>
+               <li>Juan Fonseca (UPC). La conservadurización del protestantismo en el Perú.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 34: Territorialidad, progreso y encrucijadas de la Nación en la frontera amazónica (1868-1930).</button>
+    <div class="panel">
+        <h4>Coordinador</h4>
+        <p>Juan Carlos La Serna (UNMSM)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Rolando Edison Vásquez. Una injusticia histórica: la época del caucho. Aproximaciones a la asignación de una responsabilidad como conexión social. </li>
+               <li>Ana Laya. Joaquín Capelo: Una visión positivista de la Amazonía.</li>
+               <li>Jesús Salazar (PUCP). La frontera amazónica y las estrategias de nación en el Perú (1870 -1922).</li>
+               <li>Juan Carlos La Serna (UNMSM-Ministerio de Cultura). La promesa amazónica del Cusco. Ciencia, colonialismo y frontera desde la ciudad letrada sur andina (1897-1915).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 35: Identidades sexuales y género</button>
+    <div class="panel">
+        <h4>Coordinadora</h4>
+        <p>Magally Alegre (PUCP)</p>
+    
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Sara Rondinel (PUCP). Duque y las políticas de invisibilidad del homosexual en la literatura peruana del siglo XX.</li>
+               <li>Joaquín Marreros (PUCP). Entre amigos: redes de activismo y lucha por los derechos de homosexuales y lesbianas en Lima en la década de 1980.</li>
+               <li>Magally Alegre (PUCP). Juan José Cabezudo y los banquetes de la Independencia.</li>
+               <li>Giancarlo Mori (PUCP). “Con ustedes, La Prostituyente”: Una reflexión alrededor de las transexuales en la Asamblea Constituyente (1978).</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 36A: Interculturalidad: música y política</button>
+    <div class="panel">
+       <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Frank David Huamaní (USIL). Deconstruir para construir: análisis sobre un disco emblemático subte, Narcosis, 1985, Lima.</li>
+               <li>Valeryn Namuche (Centro de documentación Anomiart). La denuncia sociopolítica del rock peruano: décadas 1970-2020.</li>
+           </ul>
+       </p>
+    </div>
+    
+    <button class="accordion">Mesa 36B: Interculturalidad: educación e inclusión</button>
+    <div class="panel">
+        <h4>Ponencias</h4>
+        <p>
+            <ul>
+               <li>Aracely del Carmen (UCV). Una mirada de la educación inclusiva siglo XX-XXI.</li>
+               <li>Daniel Parodi (PUCP-UL). Conocer, compartir y resignificar. Apuntes para una reconciliación peruano-chilena desde la escuela.</li>
+               <li>Plinio Guillén – ACUBIPROBA. Proyecto de remodelación museográfica del Museo bolivariano de Pativilca.</li>
+           </ul>
+       </p>
+    </div>
+    
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>

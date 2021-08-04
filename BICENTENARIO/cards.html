@@ -1,0 +1,393 @@
+<style>
+
+    .course {
+    background-color: #fff;
+    border: solid 1px #e10600;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    width: 700px;
+    }
+    
+    .course h6 {
+    opacity: 0.6;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    
+    .course h2 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+    }
+    
+    .course-preview {
+    background-color: #e10600;
+    color: #fff;
+    padding: 30px;
+    max-width: 250px;
+    }
+    
+    .course-preview h2{
+    color: #fff;
+    }
+    
+    .course-preview a {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 30px;
+    text-decoration: none;
+    }
+    
+    .course-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    }
+    
+    .progress-container {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    width: 150px;
+    }
+    
+    .progress {
+    background-color: #ddd;
+    border-radius: 3px;
+    height: 5px;
+    width: 100%;
+    }
+    
+    .progress::after {
+    border-radius: 3px;
+    background-color: #2A265F;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 66%;
+    }
+    
+    .progress-text {
+    font-size: 10px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    }
+    </style>
+    
+    <h2>PROGRAMA</h2>
+    
+    <div class="courses-container">
+        <div class="course">
+            <div class="course-preview">
+                <h6  style="color:white; text-align: right;">Lunes</h6>
+                <h2  style="color:white;">5</h2>
+            </div>
+            <div class="course-info">
+                <h6>9:30 a.m.</h6>
+                <h4>TALLER ESCOLARES E HISTORIADORES (PEB)</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>TALLER EXPERIENCIA BICENTENARIO DESDE LA ESCUELA (PEB)</h4>
+    
+                <h6>3:30 p.m.</h6>
+                <h4><b>CEREMONIA DE INAUGURACIÓN</b></h4>
+                
+                <h6>4:15 p.m.</h6>
+                <h4><b>MESA CENTRAL A: Repensar la República en una nueva era</b></h4>
+            </div>
+        </div>
+        <br>
+        <div class="course">
+            <div class="course-preview">
+                <h6  style="color:white; text-align: right;">Martes</h6>
+                <h2  style="color:white;">6</h2>
+            </div>
+            <div class="course-info">
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 1: España y la independencia</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 7: Nación y narrativas sobre la independencia</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 3A: Independencia y economía</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>Mesa 4: Guerra y guerrillas en la independencia</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 9: Patrimonio cultural </h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 3B: Independencia y economía</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 6: América: de la Independencia a las repúblicas</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE HISTORIETA: Conmemorando Nuestra Independencia (PUCP)</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 15: La Guerra del Pacífico</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 14:  Debates y proyectos políticos</h4>
+                
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Independencia. A 200 años de Lucha por la Libertad. (Penguin)</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 13: Pensamiento político</h4>
+    
+                <h6>3:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: 21 relatos sobre mujeres que lucharon por la Independencia del Perú (PETROPERU)</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 29: Música, identidad y nacionalismo</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 31: Derecho e historia en el Perú</h4>
+                
+                <h6>4:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE LA SERIE: Nudos de la República (PEB)</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 12: Migraciones internas y externas</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 11: Ciencia y tecnología</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 30: Salud y epidemias en la historia regional</h4>
+                
+                <h6>7:00 p.m.</h6>
+                <h4><b>MESA CENTRAL B: Epidemias y salud pública en perspectiva histórica</b> </h4>
+            </div>
+        </div>
+        <br>
+        <div class="course">
+            <div class="course-preview">
+                <h6  style="color:white; text-align: right;">Miércoles</h6>
+                <h2  style="color:white;">7</h2>
+            </div>
+            <div class="course-info">
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 2A: Independencia y
+                    regiones: costa</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 5A: Proyectos políticos e instituciones en conflicto</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 8A: Archivos</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 2B: 
+                    Independencia y
+                    regiones: sierra
+                    central</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 5B: Proyectos políticos e instituciones en conflicto (Cortegana)</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA  8B: Memoria e historia </h4>
+
+                <h6>11:00 a.m.</h6>
+                <h4><b>MESA CENTRAL C: LOS DESAFÍOS DE LA DEMOCRACIA PERUANA: UNA MIRADA INTERDISCIPLINARIA</b></h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 2C: 
+                    Independencia y
+                    regiones: sur andino</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 10A: Secularización, Iglesia y Estado: Independencia</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Puno durante la Independencia. 1809-1825. (Universidad Nacional del Altiplano)</h4>
+                
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE LA REVISTA: Historia y Región Nº 8 (Archivo del Obispado de Huacho)</h4>
+                
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: La Expedición Libertadora: entre el océano Pacífico y los Andes</h4>
+                
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Juan Bautista Túpac Amaru. El dilatado cautiverio</h4>
+    
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE LA REVISTA: Tiempos. Revista de Historia y Cultura</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 18A: Nudos de la República: Centralismo y regiones.</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 10B: Secularización, Iglesia y Estado: República</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 18B: Nudos de la República: Centralismo y regiones.</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 17: Nudos de la República. Racismo</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 19: Nudos: Ilegalidades</h4>
+                
+                <h6>7:00 p.m.</h6>
+                <h4><b>MESA CENTRAL D: ECONOMÍA Y DESARROLLO. UNA VISIÓN DE LARGO PLAZO</b></h4>
+            </div>
+        </div>
+        <br>
+        <div class="course">
+            <div class="course-preview">
+                <h6  style="color:white; text-align: right;">Jueves</h6>
+                <h2  style="color:white;">8</h2>
+            </div>
+            <div class="course-info">
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 20A: Historia de la educación</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 24A: Política, militares y pensadores </h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4><b>MESA CENTRAL F : LA INDEPENDENCIA DEL PERÚ</b></h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 20 B: Historia de la educación</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 24B: Política, militares y pensadores </h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Los rostros de la Independencia: El nacimiento del Perú desde las vidas de sus protagonistas (Sílex)</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Máximas, consejos e instituciones para el arte de la guerra (1880). Mariano BolognesiI (Fondo Editorial de la Escuela de Edicion de Lima)</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4> MESA 16: El espacio peruano. Exploraciones, cartografía y organización territorial</h4>
+                
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 24C: Política, militares y pensadores</h4>
+                
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE REVISTA: Revista de Indias. Número monográfico: Bicentenario de las independencias de Perú y México</h4>
+    
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 23A: Prensa y literatura. Siglo XIX</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 21: Deporte y sociedad</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 24D: Política, militares y pensadores</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 23B: Prensa y literatura. Siglo XX</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 22: Vida cotidiana</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 26: La ciudad en la historia republicana</h4>
+                
+                <h6>7:00 p.m.</h6>
+                <h4><b>MESA CENTRAL E: LOS ROSTROS DE LA VIOLENCIA</b> </h4>
+            </div>
+        </div>
+        <br>
+        <div class="course">
+            <div class="course-preview">
+                <h6  style="color:white; text-align: right;">Viernes</h6>
+                <h2  style="color:white;">9</h2>
+            </div>
+            <div class="course-info">
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 25A: Arte, sociedad y política</h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 32A: Las
+                    mujeres y los
+                    campos de disputa/
+                    batalla
+                    </h4>
+                
+                <h6>9:00 a.m.</h6>
+                <h4>MESA 27: Población indígena y mundo rural</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 25B: Arte, sociedad y política</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 32B:  Cuerpos
+                    de mujeres,
+                    agencias y controles
+                    patriarcales</h4>
+                
+                <h6>11:00 a.m.</h6>
+                <h4>MESA 28: Profesionales y creadores de la nación</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Una vida en los Andes (Fondo Editoral UNMSM)</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Lecturas de la Independencia (PEB)</h4>
+    
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 32C: Mujeres
+                    y escritos
+                    republicanos</h4>
+                
+                <h6>1:00 p.m.</h6>
+                <h4>MESA 33: Diversidad religiosa, política y sociedad</h4>
+                
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DE LIBRO: Historia de la UNMSM (Fondo Editorial UNMSM)</h4>
+    
+                <h6>2:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Ríos de sangre (IEP)</h4>
+    
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 34: Territorialidad, progreso y encrucijadas de la Nación en la frontera amazónica (1868-1930)</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Lima y su alrededores (Fondo Editorial UNMSM)</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 32D: Subversiones de la
+                    dicotomía polis/casa</h4>
+                
+                <h6>3:00 p.m.</h6>
+                <h4>MESA 35: Identidades sexuales y género</h4>
+                
+                <h6>4:00 p.m.</h6>
+                <h4>PRESENTACIÓN DEL LIBRO: Trocito: un pedacito de tela que soñaba con ser bandera</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4>MESA 36A: Interculturalidad. Música y política</h4>
+                
+                <h6>5:00 p.m.</h6>
+                <h4><b>MESA CENTRAL G: RECONSTRUCCIONES NACIONALES: LEGADOS Y APRENDIZAJES</b></h4>
+                
+                <h6>6:00 p.m.</h6>
+                <h4>MESA 36B: Interculturalidad. Educación e inclusión</h4>
+
+                <h6>7:00 p.m.</h6>
+                <h4><b>CEREMONIA DE RECONOCIMIENTOS</b></h4>
+                
+                <h6>8:00 p.m.</h6>
+                <h4><b>CEREMONIA DE CLAUSURA</b></h4>
+            </div>
+        </div>
+    </div>
