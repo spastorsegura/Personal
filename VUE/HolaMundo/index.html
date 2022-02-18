@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+
+    <script src="https://unpkg.com/vue@next"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="app">
+        <h1>
+            {{mayusculaTexto}}
+        </h1>
+        <h2 
+            class="bg-dark"
+            :class="colorCantidad"
+        >
+            <!--  {{cantidad > 1000 ? 'Es mayor a mil' : 'Es menor a mil'}} -->
+            Mi saldo disponible es: {{cantidad}}
+
+        </h2>
+        <a v-bind:href="enlace">Ir a mi enlace</a>
+        <a :href="enlace">Ir a mi enlace</a>
+
+        <hr>
+
+        <h2 v-if="estado">
+            Cuenta activa
+        </h2>
+        <h2 v-else="estado">
+            Cuenta desactivada
+        </h2>
+
+        <hr>
+
+        <h2 v-if="cantidad > 500">Cantidad: {{cantidad}}</h2>
+        <h2 v-else-if="cantidad <=500 && cantidad > 0">
+            Cantidad:
+            <span style="color: tomato;">{{cantidad}}</span>
+        </h2>
+        <h2 v-else>Sin cantidad {{cantidad}}</h2>
+
+        <hr>
+        <h2>Mis servicios disponibles</h2>
+        <ul>
+            <li v-for="(item,index) in servicios" :key="index">{{index+1}}- {{item}}</li>
+        </ul>
+
+        <hr>
+
+        <button v-on:click="agregarSaldo" class="btn">Agregar saldo</button><br><br>
+        <button @click="agregarSaldo" class="btn">Agregar saldo</button>
+
+        <hr>
+
+        <button @click="disminuirSaldo(500)" class="btn" :disabled="desactivar">Disminuir saldo</button>
+
+        <footer-banco 
+            :valor="cantidad"
+            fecha="29 de setiembre"
+        />
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="components/Footer.js"></script>
+    <script>
+        const mountedApp=app.mount('#app');
+    </script>
+</body>
+</html>
